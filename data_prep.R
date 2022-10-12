@@ -12,7 +12,7 @@ rsem_pvt <- rsem_data %>%
                names_to = "sample_id",
                 values_to = "expression") %>% 
   filter(!str_detect(sample_id, "ALX|alx")) %>% 
-  mutate(group = unlist(strsplit(sample_id, split = ""))[9])
+  mutate(group = substr(sample_id, 9, 9))
   
 unique(rsem_pvt$sample_id)
 
