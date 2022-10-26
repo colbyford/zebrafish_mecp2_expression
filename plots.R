@@ -26,11 +26,13 @@ column_clusters <- rsem_z_mat %>% t() %>% dist() %>% hclust()
 
 rsem_z_hm <- hmReady(rsem_z_mat, colclus=column_clusters, rowclus=row_clusters)
 
+write_csv(rsem_z_hm, "rsem_GENE_z_clust.csv")
 
 ggplot() + 
-  geom_tile(data=rsem_z_hm, aes(x=x, y=y, fill=value)) +               ## heatmap
+  geom_tile(data=rsem_z_hm, aes(x=y, y=x, fill=value)) +               ## heatmap
   scale_fill_gradientn(colors=hmGradient(), limits=c(-4,4)) +          ## options for heatmap
-  geom_dendro(column_clusters, ylim=c(16.5, 20)) +                     ## upper dendrogram
-  geom_dendro(row_clusters, xlim=c(8.5, 10), pointing="side") +        ## side dendrogram
+  geom_dendro(column_clusters, pointing="side") +
+  #geom_dendro(column_clusters, ylim=c(16.5, 20)) +                     ## upper dendrogram
+  #geom_dendro(row_clusters, xlim=c(8.5, 10), pointing="side") +        ## side dendrogram
   theme_hm()+                                                          ## design
   theme(axis.title=element_blank())                                    ## design
