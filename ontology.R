@@ -27,8 +27,8 @@ library(ontologyIndex)
 go_obo <- get_OBO(
   "go.obo",
   propagate_relationships = "is_a",
-  extract_tags = "minimal",
-  merge_equivalent_terms = TRUE
+  extract_tags = "minimal"#,
+  # merge_equivalent_terms = TRUE
 )
 
 go_obo_df <- data.frame(
@@ -69,6 +69,8 @@ go_changes <- go_data_join %>%
          pct_up = n_up / n_genes,
          pct_down = n_down / n_genes) %>% 
   filter(n_genes >= 300, n_genes <= 5000)
+  # filter(n_genes >= 50, n_genes <= 1000)
+  # filter(n_genes >= 10
 
 ## Pivot Summary Data Frame for Viz
 go_changes_pvt <- go_changes %>% 
