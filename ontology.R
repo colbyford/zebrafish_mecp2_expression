@@ -68,9 +68,11 @@ go_changes <- go_data_join %>%
          pct_same = 100 - pct_changed,
          pct_up = n_up / n_genes,
          pct_down = n_down / n_genes) %>% 
-  filter(n_genes >= 300, n_genes <= 5000)
+  # filter(n_genes >= 300, n_genes <= 5000)
   # filter(n_genes >= 50, n_genes <= 1000)
-  # filter(n_genes >= 10
+  filter(n_genes >= 10)
+
+write_csv(go_changes, "go_changes_gte10.csv")
 
 ## Pivot Summary Data Frame for Viz
 go_changes_pvt <- go_changes %>% 
