@@ -22,13 +22,27 @@ rsem_data_z <- read_csv("rsem_GENE_z.csv")
 rsem_data_z_filtered <- rsem_data_z %>% dplyr::select(!c("gene_id", "Symbol"))
 rownames(rsem_data_z_filtered) <- rsem_data_z$gene_id
 
+## Make Wild Type and Mutant Subsets
+rsem_data_z_filtered_M <- rsem_data_z_filtered %>% select(contains("s4d.mecpM"))
+rownames(rsem_data_z_filtered_M) <- rsem_data_z$gene_id
+
+rsem_data_z_filtered_W <- rsem_data_z_filtered %>% select(contains("s4d.mecpW"))
+rownames(rsem_data_z_filtered_W) <- rsem_data_z$gene_id
 
 ## Example: Phototransduction pathway
-pt_pv <- pathview(gene.data = rsem_data_z_filtered,
-                 gene.idtype="ENSEMBL",
-                 pathway.id = "04744",
-                 species = "dre",
-                 kegg.native = T)
+pt_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "04744",
+                    species = "dre",
+                    out.suffix = "_M",
+                    kegg.native = T)
+
+pt_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "04744",
+                    species = "dre",
+                    out.suffix = "_W",
+                    kegg.native = T)
 
 ## Example: Calcium Signaling pathway
 ca_pv <- pathview(gene.data = rsem_data_z_filtered,
