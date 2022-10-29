@@ -29,3 +29,10 @@ pt_pv <- pathview(gene.data = rsem_data_z_filtered,
                  pathway.id = "04744",
                  species = "dre",
                  kegg.native = T)
+
+## Example: Calcium Signaling pathway
+ca_pv <- pathview(gene.data = rsem_data_z_filtered,
+                  gene.idtype="ENSEMBL",
+                  pathway.id = "04020",
+                  species = "dre",
+                  kegg.native = T)
