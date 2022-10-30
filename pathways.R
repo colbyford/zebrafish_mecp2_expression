@@ -45,8 +45,17 @@ pt_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
                     kegg.native = T)
 
 ## Example: Calcium Signaling pathway
-ca_pv <- pathview(gene.data = rsem_data_z_filtered,
-                  gene.idtype="ENSEMBL",
-                  pathway.id = "04020",
-                  species = "dre",
-                  kegg.native = T)
+
+ca_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "04020",
+                    species = "dre",
+                    out.suffix = "_W",
+                    kegg.native = T)
+
+ca_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "04020",
+                    species = "dre",
+                    out.suffix = "_M",
+                    kegg.native = T)
