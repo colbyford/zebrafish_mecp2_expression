@@ -1,0 +1,21 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PLCB1	phospholipase C beta 1 [Source:HGNC Symbol;Acc:HGNC:15917]	24	0.37186282873153687	0.05682163	No	
+row_1	PRDM15	PR/SET domain 15 [Source:HGNC Symbol;Acc:HGNC:13999]	52	0.26179224252700806	0.07768791	No	
+row_2	CIR1	corepressor interacting with RBPJ, CIR1 [Source:HGNC Symbol;Acc:HGNC:24217]	94	0.19734840095043182	0.054314584	No	
+row_3	DDX17	DEAD-box helicase 17 [Source:HGNC Symbol;Acc:HGNC:2740]	166	0.1280716210603714	-0.044930637	No	
+row_4	KIF2A	kinesin family member 2A [Source:HGNC Symbol;Acc:HGNC:6318]	175	0.11689458787441254	-0.02793177	No	
+row_5	HMBOX1	homeobox containing 1 [Source:HGNC Symbol;Acc:HGNC:26137]	179	0.11154735833406448	-0.002933897	No	
+row_6	UBE2O	ubiquitin conjugating enzyme E2 O [Source:HGNC Symbol;Acc:HGNC:29554]	212	0.06923332065343857	-0.04449821	No	
+row_7	TENM2	teneurin transmembrane protein 2 [Source:HGNC Symbol;Acc:HGNC:29943]	233	0.04518139734864235	-0.069950424	No	
+row_8	SNORA38	small nucleolar RNA, H/ACA box 38 [Source:HGNC Symbol;Acc:HGNC:32631]	266	0.0	-0.1305565	No	
+row_9	NAMPT	nicotinamide phosphoribosyltransferase [Source:HGNC Symbol;Acc:HGNC:30092]	267	0.0	-0.1305565	No	
+row_10	SCARNA14	small Cajal body-specific RNA 14 [Source:HGNC Symbol;Acc:HGNC:32571]	274	0.0	-0.14192012	No	
+row_11	SCARNA11	small Cajal body-specific RNA 11 [Source:HGNC Symbol;Acc:HGNC:32568]	275	0.0	-0.14192012	No	
+row_12	PKN2	protein kinase N2 [Source:HGNC Symbol;Acc:HGNC:9406]	328	-0.034034211188554764	-0.23104429	No	
+row_13	NDUFB1	NADH:ubiquinone oxidoreductase subunit B1 [Source:HGNC Symbol;Acc:HGNC:7695]	329	-0.034549131989479065	-0.22154199	No	
+row_14	GPATCH2	G-patch domain containing 2 [Source:HGNC Symbol;Acc:HGNC:25499]	358	-0.06849033385515213	-0.2557349	No	
+row_15	FAM107A	family with sequence similarity 107 member A [Source:HGNC Symbol;Acc:HGNC:30827]	423	-0.1486407071352005	-0.33606526	No	
+row_16	XPO1	exportin 1 [Source:HGNC Symbol;Acc:HGNC:12825]	484	-0.2545144259929657	-0.37970066	Yes	
+row_17	TCIM	transcriptional and immune response regulator [Source:HGNC Symbol;Acc:HGNC:1357]	533	-0.53273606300354	-0.32408744	Yes	
+row_18	SCARNA13	small Cajal body-specific RNA 13 [Source:HGNC Symbol;Acc:HGNC:32570]	534	-0.5361884832382202	-0.17661555	Yes	
+row_19	AK6	adenylate kinase 6 [Source:HGNC Symbol;Acc:HGNC:49151]	543	-0.7247843742370605	0.0075757196	Yes	

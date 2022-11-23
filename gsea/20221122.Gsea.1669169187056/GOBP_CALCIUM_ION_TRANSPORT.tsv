@@ -1,0 +1,17 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SLC35G1	solute carrier family 35 member G1 [Source:HGNC Symbol;Acc:HGNC:26607]	26	0.3486839532852173	0.034497663	No	
+row_1	CACNA2D3	calcium voltage-gated channel auxiliary subunit alpha2delta 3 [Source:HGNC Symbol;Acc:HGNC:15460]	29	0.34563952684402466	0.11338019	No	
+row_2	MCOLN3	mucolipin TRP cation channel 3 [Source:HGNC Symbol;Acc:HGNC:13358]	51	0.2632450759410858	0.13684803	No	
+row_3	TMC1	transmembrane channel like 1 [Source:HGNC Symbol;Acc:HGNC:16513]	60	0.24324220418930054	0.17996931	No	
+row_4	JPH3	junctophilin 3 [Source:HGNC Symbol;Acc:HGNC:14203]	182	0.1078139916062355	-0.021696128	No	
+row_5	RYR2	ryanodine receptor 2 [Source:HGNC Symbol;Acc:HGNC:10484]	195	0.08844326436519623	-0.023105858	No	
+row_6	CABP4	calcium binding protein 4 [Source:HGNC Symbol;Acc:HGNC:1386]	289	0.0	-0.1979179	No	
+row_7	GRIN2B	glutamate ionotropic receptor NMDA type subunit 2B [Source:HGNC Symbol;Acc:HGNC:4586]	400	-0.11608199030160904	-0.37692976	No	
+row_8	METTL21C	methyltransferase 21C, AARS1 lysine [Source:HGNC Symbol;Acc:HGNC:33717]	467	-0.21828247606754303	-0.4487989	Yes	
+row_9	CACNA2D1	calcium voltage-gated channel auxiliary subunit alpha2delta 1 [Source:HGNC Symbol;Acc:HGNC:1399]	495	-0.2865876257419586	-0.43102807	Yes	
+row_10	F2RL3	F2R like thrombin or trypsin receptor 3 [Source:HGNC Symbol;Acc:HGNC:3540]	497	-0.2950023412704468	-0.36237314	Yes	
+row_11	RAMP1	receptor activity modifying protein 1 [Source:HGNC Symbol;Acc:HGNC:9843]	500	-0.30154120922088623	-0.29403445	Yes	
+row_12	RAMP3	receptor activity modifying protein 3 [Source:HGNC Symbol;Acc:HGNC:9845]	509	-0.3428772985935211	-0.22709055	Yes	
+row_13	MCUR1	mitochondrial calcium uniporter regulator 1 [Source:HGNC Symbol;Acc:HGNC:21097]	516	-0.39041462540626526	-0.14502116	Yes	
+row_14	CALHM1	calcium homeostasis modulator 1 [Source:HGNC Symbol;Acc:HGNC:23494]	520	-0.41604679822921753	-0.051184047	Yes	
+row_15	F2R	coagulation factor II thrombin receptor [Source:HGNC Symbol;Acc:HGNC:3537]	521	-0.41847264766693115	0.048872177	Yes	

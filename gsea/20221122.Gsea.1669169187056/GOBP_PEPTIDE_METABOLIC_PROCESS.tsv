@@ -1,0 +1,23 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SAMD4B	sterile alpha motif domain containing 4B [Source:HGNC Symbol;Acc:HGNC:25492]	30	0.3414229452610016	0.02047066	No	
+row_1	ANPEP	alanyl aminopeptidase, membrane [Source:HGNC Symbol;Acc:HGNC:500]	78	0.22308911383152008	-0.018240498	No	
+row_2	EIF3J	eukaryotic translation initiation factor 3 subunit J [Source:HGNC Symbol;Acc:HGNC:3270]	83	0.21775764226913452	0.023587117	No	
+row_3	RPS17	ribosomal protein S17 [Source:HGNC Symbol;Acc:HGNC:10397]	141	0.1496882140636444	-0.050797857	No	
+row_4	SRBD1	S1 RNA binding domain 1 [Source:HGNC Symbol;Acc:HGNC:25521]	144	0.14932920038700104	-0.02070159	No	
+row_5	MIR96	microRNA 96 [Source:HGNC Symbol;Acc:HGNC:31648]	293	0.0	-0.3020704	No	
+row_6	WARS1	tryptophanyl-tRNA synthetase 1 [Source:HGNC Symbol;Acc:HGNC:12729]	302	-0.007590399589389563	-0.31555647	No	
+row_7	PPP1CA	protein phosphatase 1 catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:9281]	306	-0.010933333076536655	-0.31877798	No	
+row_8	CTSZ	cathepsin Z [Source:HGNC Symbol;Acc:HGNC:2547]	315	-0.020424403250217438	-0.32935065	No	
+row_9	SERP1	stress associated endoplasmic reticulum protein 1 [Source:HGNC Symbol;Acc:HGNC:10759]	319	-0.02402741275727749	-0.3295997	No	
+row_10	EARS2	glutamyl-tRNA synthetase 2, mitochondrial [Source:HGNC Symbol;Acc:HGNC:29419]	342	-0.052740003913640976	-0.35945255	No	
+row_11	MRPS12	mitochondrial ribosomal protein S12 [Source:HGNC Symbol;Acc:HGNC:10380]	416	-0.1385096162557602	-0.46679336	Yes	
+row_12	GGT7	gamma-glutamyltransferase 7 [Source:HGNC Symbol;Acc:HGNC:4259]	427	-0.15476709604263306	-0.4506718	Yes	
+row_13	ZC3H12A	zinc finger CCCH-type containing 12A [Source:HGNC Symbol;Acc:HGNC:26259]	444	-0.18272189795970917	-0.43961117	Yes	
+row_14	PSTK	phosphoseryl-tRNA kinase [Source:HGNC Symbol;Acc:HGNC:28578]	472	-0.23291754722595215	-0.43806842	Yes	
+row_15	LTN1	listerin E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:13082]	474	-0.24151942133903503	-0.3851433	Yes	
+row_16	EIF2AK4	eukaryotic translation initiation factor 2 alpha kinase 4 [Source:HGNC Symbol;Acc:HGNC:19687]	475	-0.24330326914787292	-0.32991213	Yes	
+row_17	METTL18	methyltransferase like 18 [Source:HGNC Symbol;Acc:HGNC:28793]	476	-0.24371665716171265	-0.27458712	Yes	
+row_18	LIN28A	lin-28 homolog A [Source:HGNC Symbol;Acc:HGNC:15986]	482	-0.2532649338245392	-0.2266003	Yes	
+row_19	SLC2A13	solute carrier family 2 member 13 [Source:HGNC Symbol;Acc:HGNC:15956]	498	-0.2981112599372864	-0.18744451	Yes	
+row_20	MRPL49	mitochondrial ribosomal protein L49 [Source:HGNC Symbol;Acc:HGNC:1176]	514	-0.3813864290714264	-0.12938482	Yes	
+row_21	YIPF5	Yip1 domain family member 5 [Source:HGNC Symbol;Acc:HGNC:24877]	544	-0.837959349155426	0.005703478	Yes	

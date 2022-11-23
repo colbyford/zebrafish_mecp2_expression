@@ -1,0 +1,18 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FAT4	FAT atypical cadherin 4 [Source:HGNC Symbol;Acc:HGNC:23109]	113	0.18037590384483337	-0.15585192	No	
+row_1	BICD2	BICD cargo adaptor 2 [Source:HGNC Symbol;Acc:HGNC:17208]	136	0.15548644959926605	-0.14818797	No	
+row_2	CCDC39	coiled-coil domain containing 39 [Source:HGNC Symbol;Acc:HGNC:25244]	138	0.15456247329711914	-0.10126774	No	
+row_3	RSPH1	radial spoke head component 1 [Source:HGNC Symbol;Acc:HGNC:12371]	140	0.1516866385936737	-0.05525557	No	
+row_4	HTRA2	HtrA serine peptidase 2 [Source:HGNC Symbol;Acc:HGNC:14348]	158	0.13552618026733398	-0.04447793	No	
+row_5	CLPB	caseinolytic mitochondrial matrix peptidase chaperone subunit B [Source:HGNC Symbol;Acc:HGNC:30664]	170	0.121580109000206	-0.026804358	No	
+row_6	FIG4	FIG4 phosphoinositide 5-phosphatase [Source:HGNC Symbol;Acc:HGNC:16873]	187	0.10358111560344696	-0.024230206	No	
+row_7	KCNJ6	potassium inwardly rectifying channel subfamily J member 6 [Source:HGNC Symbol;Acc:HGNC:6267]	199	0.08249618858098984	-0.018897472	No	
+row_8	NDUFAF8	NADH:ubiquinone oxidoreductase complex assembly factor 8 [Source:HGNC Symbol;Acc:HGNC:33551]	223	0.05572746321558952	-0.044615895	No	
+row_9	GAA	alpha glucosidase [Source:HGNC Symbol;Acc:HGNC:4065]	258	0.011786025017499924	-0.10492456	No	
+row_10	DST	dystonin [Source:HGNC Symbol;Acc:HGNC:1090]	265	5.863826372660697E-4	-0.116038844	No	
+row_11	GRM7	glutamate metabotropic receptor 7 [Source:HGNC Symbol;Acc:HGNC:4599]	372	-0.07614962011575699	-0.29161778	No	
+row_12	SLC5A7	solute carrier family 5 member 7 [Source:HGNC Symbol;Acc:HGNC:14025]	481	-0.25225308537483215	-0.4153581	Yes	
+row_13	DYNC2H1	dynein cytoplasmic 2 heavy chain 1 [Source:HGNC Symbol;Acc:HGNC:2962]	492	-0.275251567363739	-0.34727916	Yes	
+row_14	LRRC56	leucine rich repeat containing 56 [Source:HGNC Symbol;Acc:HGNC:25430]	506	-0.3402647078037262	-0.2643219	Yes	
+row_15	FLNB	filamin B [Source:HGNC Symbol;Acc:HGNC:3755]	518	-0.40845945477485657	-0.15606551	Yes	
+row_16	HPDL	4-hydroxyphenylpyruvate dioxygenase like [Source:HGNC Symbol;Acc:HGNC:28242]	541	-0.661266028881073	0.0112995235	Yes	

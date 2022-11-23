@@ -1,0 +1,18 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ATP8A1	ATPase phospholipid transporting 8A1 [Source:HGNC Symbol;Acc:HGNC:13531]	9	0.4685143530368805	0.113022886	Yes	
+row_1	KCNH4	potassium voltage-gated channel subfamily H member 4 [Source:HGNC Symbol;Acc:HGNC:6253]	10	0.43941155076026917	0.23492143	Yes	
+row_2	KCNMA1	potassium calcium-activated channel subfamily M alpha 1 [Source:HGNC Symbol;Acc:HGNC:6284]	13	0.42349883913993835	0.3486391	Yes	
+row_3	CACNA2D3	calcium voltage-gated channel auxiliary subunit alpha2delta 3 [Source:HGNC Symbol;Acc:HGNC:15460]	29	0.34563952684402466	0.41627544	Yes	
+row_4	KCNV1	potassium voltage-gated channel modifier subfamily V member 1 [Source:HGNC Symbol;Acc:HGNC:18861]	34	0.305931031703949	0.49361178	Yes	
+row_5	KCNIP1	potassium voltage-gated channel interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:15521]	76	0.22537139058113098	0.47891998	Yes	
+row_6	KCNIP4	potassium voltage-gated channel interacting protein 4 [Source:HGNC Symbol;Acc:HGNC:30083]	81	0.21953029930591583	0.5322876	Yes	
+row_7	GABRR1	gamma-aminobutyric acid type A receptor subunit rho1 [Source:HGNC Symbol;Acc:HGNC:4090]	125	0.16693346202373505	0.49761787	Yes	
+row_8	GABRB2	gamma-aminobutyric acid type A receptor subunit beta2 [Source:HGNC Symbol;Acc:HGNC:4082]	130	0.16311872005462646	0.5353362	Yes	
+row_9	GRIK2	glutamate ionotropic receptor kainate type subunit 2 [Source:HGNC Symbol;Acc:HGNC:4580]	146	0.14783547818660736	0.5480991	Yes	
+row_10	RYR2	ryanodine receptor 2 [Source:HGNC Symbol;Acc:HGNC:10484]	195	0.08844326436519623	0.48223895	No	
+row_11	KCNJ6	potassium inwardly rectifying channel subfamily J member 6 [Source:HGNC Symbol;Acc:HGNC:6267]	199	0.08249618858098984	0.49947476	No	
+row_12	ATP11B	ATPase phospholipid transporting 11B (putative) [Source:HGNC Symbol;Acc:HGNC:13553]	248	0.02513653226196766	0.4160525	No	
+row_13	NDUFB1	NADH:ubiquinone oxidoreductase subunit B1 [Source:HGNC Symbol;Acc:HGNC:7695]	329	-0.034549131989479065	0.27497774	No	
+row_14	KCNB2	potassium voltage-gated channel subfamily B member 2 [Source:HGNC Symbol;Acc:HGNC:6232]	351	-0.06565241515636444	0.25364256	No	
+row_15	GRIN2B	glutamate ionotropic receptor NMDA type subunit 2B [Source:HGNC Symbol;Acc:HGNC:4586]	400	-0.11608199030160904	0.19544975	No	
+row_16	CACNA2D1	calcium voltage-gated channel auxiliary subunit alpha2delta 1 [Source:HGNC Symbol;Acc:HGNC:1399]	495	-0.2865876257419586	0.09792845	No	

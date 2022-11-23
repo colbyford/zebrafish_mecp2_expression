@@ -1,0 +1,28 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SLC35D3	solute carrier family 35 member D3 [Source:HGNC Symbol;Acc:HGNC:15621]	46	0.27494141459465027	-0.040344816	No	
+row_1	SYNDIG1	synapse differentiation inducing 1 [Source:HGNC Symbol;Acc:HGNC:15885]	80	0.22164131700992584	-0.0650326	No	
+row_2	RIC1	RIC1 homolog, RAB6A GEF complex partner 1 [Source:HGNC Symbol;Acc:HGNC:17686]	105	0.1882973462343216	-0.07826076	No	
+row_3	PARD3	par-3 family cell polarity regulator [Source:HGNC Symbol;Acc:HGNC:16051]	155	0.140908882021904	-0.1477376	No	
+row_4	HTRA2	HtrA serine peptidase 2 [Source:HGNC Symbol;Acc:HGNC:14348]	158	0.13552618026733398	-0.12794203	No	
+row_5	NUP85	nucleoporin 85 [Source:HGNC Symbol;Acc:HGNC:8734]	178	0.1121605634689331	-0.14485072	No	
+row_6	RANBP2	RAN binding protein 2 [Source:HGNC Symbol;Acc:HGNC:9848]	222	0.057969603687524796	-0.21727501	No	
+row_7	RIMS2	regulating synaptic membrane exocytosis 2 [Source:HGNC Symbol;Acc:HGNC:17283]	242	0.032319825142621994	-0.24810709	No	
+row_8	AP3B2	adaptor related protein complex 3 subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:567]	246	0.026816044002771378	-0.24918881	No	
+row_9	STX3	syntaxin 3 [Source:HGNC Symbol;Acc:HGNC:11438]	308	-0.012719850055873394	-0.36405313	No	
+row_10	CAMSAP3	calmodulin regulated spectrin associated protein family member 3 [Source:HGNC Symbol;Acc:HGNC:29307]	312	-0.017831649631261826	-0.36670163	No	
+row_11	TIMM21	translocase of inner mitochondrial membrane 21 [Source:HGNC Symbol;Acc:HGNC:25010]	327	-0.030598966404795647	-0.38823688	No	
+row_12	ATG14	autophagy related 14 [Source:HGNC Symbol;Acc:HGNC:19962]	331	-0.03727354481816292	-0.38749492	No	
+row_13	TNPO2	transportin 2 [Source:HGNC Symbol;Acc:HGNC:19998]	334	-0.0402897447347641	-0.3843076	No	
+row_14	FAM53C	family with sequence similarity 53 member C [Source:HGNC Symbol;Acc:HGNC:1336]	396	-0.10972944647073746	-0.48225445	Yes	
+row_15	AP1S2	adaptor related protein complex 1 subunit sigma 2 [Source:HGNC Symbol;Acc:HGNC:560]	406	-0.12192648649215698	-0.4782662	Yes	
+row_16	TXN	thioredoxin [Source:HGNC Symbol;Acc:HGNC:12435]	412	-0.1276226043701172	-0.46560708	Yes	
+row_17	RAB19	RAB19, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:19982]	425	-0.1496623456478119	-0.46254015	Yes	
+row_18	UBL4A	ubiquitin like 4A [Source:HGNC Symbol;Acc:HGNC:12505]	430	-0.16180087625980377	-0.44200128	Yes	
+row_19	ZC3H12A	zinc finger CCCH-type containing 12A [Source:HGNC Symbol;Acc:HGNC:26259]	444	-0.18272189795970917	-0.4350885	Yes	
+row_20	XPO1	exportin 1 [Source:HGNC Symbol;Acc:HGNC:12825]	484	-0.2545144259929657	-0.46555987	Yes	
+row_21	MDFIC	MyoD family inhibitor domain containing [Source:HGNC Symbol;Acc:HGNC:28870]	491	-0.27423110604286194	-0.42925313	Yes	
+row_22	RAMP1	receptor activity modifying protein 1 [Source:HGNC Symbol;Acc:HGNC:9843]	500	-0.30154120922088623	-0.39202255	Yes	
+row_23	RAMP3	receptor activity modifying protein 3 [Source:HGNC Symbol;Acc:HGNC:9845]	509	-0.3428772985935211	-0.3475834	Yes	
+row_24	TIMM22	translocase of inner mitochondrial membrane 22 [Source:HGNC Symbol;Acc:HGNC:17317]	536	-0.5560224652290344	-0.3005229	Yes	
+row_25	XPO5	exportin 5 [Source:HGNC Symbol;Acc:HGNC:17675]	545	-0.8702734708786011	-0.16411132	Yes	
+row_26	MTERF4	mitochondrial transcription termination factor 4 [Source:HGNC Symbol;Acc:HGNC:28785]	546	-0.9520676136016846	0.0019193906	Yes	

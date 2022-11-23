@@ -1,0 +1,19 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	XK	X-linked Kx blood group [Source:HGNC Symbol;Acc:HGNC:12811]	21	0.38750091195106506	0.10656286	Yes	
+row_1	SRCIN1	SRC kinase signaling inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:29506]	67	0.23494967818260193	0.11029244	Yes	
+row_2	PLXNA1	plexin A1 [Source:HGNC Symbol;Acc:HGNC:9099]	96	0.19620482623577118	0.13148093	Yes	
+row_3	CCKAR	cholecystokinin A receptor [Source:HGNC Symbol;Acc:HGNC:1570]	99	0.19120752811431885	0.19984077	Yes	
+row_4	MAP3K13	mitogen-activated protein kinase kinase kinase 13 [Source:HGNC Symbol;Acc:HGNC:6852]	100	0.190499946475029	0.27170727	Yes	
+row_5	EPHB3	EPH receptor B3 [Source:HGNC Symbol;Acc:HGNC:3394]	116	0.17757272720336914	0.31039506	Yes	
+row_6	LHX3	LIM homeobox 3 [Source:HGNC Symbol;Acc:HGNC:6595]	119	0.17335401475429535	0.37201962	Yes	
+row_7	FEZ2	fasciculation and elongation protein zeta 2 [Source:HGNC Symbol;Acc:HGNC:3660]	152	0.14427977800369263	0.3660721	Yes	
+row_8	PARD3	par-3 family cell polarity regulator [Source:HGNC Symbol;Acc:HGNC:16051]	155	0.140908882021904	0.41545668	Yes	
+row_9	UNC5C	unc-5 netrin receptor C [Source:HGNC Symbol;Acc:HGNC:12569]	159	0.1353975087404251	0.46087527	Yes	
+row_10	ANOS1	anosmin 1 [Source:HGNC Symbol;Acc:HGNC:6211]	174	0.11882707476615906	0.47928795	Yes	
+row_11	ARHGEF25	Rho guanine nucleotide exchange factor 25 [Source:HGNC Symbol;Acc:HGNC:30275]	201	0.08069468289613724	0.46067357	No	
+row_12	PTPRD	protein tyrosine phosphatase receptor type D [Source:HGNC Symbol;Acc:HGNC:9668]	240	0.035044871270656586	0.4021962	No	
+row_13	SLIT3	slit guidance ligand 3 [Source:HGNC Symbol;Acc:HGNC:11087]	261	0.008568326942622662	0.36769277	No	
+row_14	RAC1	Rac family small GTPase 1 [Source:HGNC Symbol;Acc:HGNC:9801]	283	0.0	0.32807013	No	
+row_15	CABP4	calcium binding protein 4 [Source:HGNC Symbol;Acc:HGNC:1386]	289	0.0	0.31863618	No	
+row_16	TANC2	tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 2 [Source:HGNC Symbol;Acc:HGNC:30212]	426	-0.15110120177268982	0.11903564	No	
+row_17	UST	uronyl 2-sulfotransferase [Source:HGNC Symbol;Acc:HGNC:17223]	494	-0.2846359312534332	0.10000003	No	

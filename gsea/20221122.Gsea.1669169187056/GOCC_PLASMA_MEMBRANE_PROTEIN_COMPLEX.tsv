@@ -1,0 +1,25 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KCNH4	potassium voltage-gated channel subfamily H member 4 [Source:HGNC Symbol;Acc:HGNC:6253]	10	0.43941155076026917	0.06235093	Yes	
+row_1	KCNMA1	potassium calcium-activated channel subfamily M alpha 1 [Source:HGNC Symbol;Acc:HGNC:6284]	13	0.42349883913993835	0.13701998	Yes	
+row_2	CACNA2D3	calcium voltage-gated channel auxiliary subunit alpha2delta 3 [Source:HGNC Symbol;Acc:HGNC:15460]	29	0.34563952684402466	0.17245042	Yes	
+row_3	KCNV1	potassium voltage-gated channel modifier subfamily V member 1 [Source:HGNC Symbol;Acc:HGNC:18861]	34	0.305931031703949	0.22151417	Yes	
+row_4	GJD2	gap junction protein delta 2 [Source:HGNC Symbol;Acc:HGNC:19154]	47	0.2714235186576843	0.24891555	Yes	
+row_5	CDH18	cadherin 18 [Source:HGNC Symbol;Acc:HGNC:1757]	56	0.25447723269462585	0.2808099	Yes	
+row_6	GNAZ	G protein subunit alpha z [Source:HGNC Symbol;Acc:HGNC:4395]	71	0.2290232926607132	0.2965366	Yes	
+row_7	KCNIP1	potassium voltage-gated channel interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:15521]	76	0.22537139058113098	0.33067045	Yes	
+row_8	KCNIP4	potassium voltage-gated channel interacting protein 4 [Source:HGNC Symbol;Acc:HGNC:30083]	81	0.21953029930591583	0.3637218	Yes	
+row_9	ACVR1C	activin A receptor type 1C [Source:HGNC Symbol;Acc:HGNC:18123]	84	0.21144512295722961	0.3990915	Yes	
+row_10	SNTA1	syntrophin alpha 1 [Source:HGNC Symbol;Acc:HGNC:11167]	102	0.19006119668483734	0.40187228	Yes	
+row_11	GNB4	G protein subunit beta 4 [Source:HGNC Symbol;Acc:HGNC:20731]	103	0.18950508534908295	0.4369927	Yes	
+row_12	SGCZ	sarcoglycan zeta [Source:HGNC Symbol;Acc:HGNC:14075]	112	0.182145357131958	0.45548204	Yes	
+row_13	GRIK2	glutamate ionotropic receptor kainate type subunit 2 [Source:HGNC Symbol;Acc:HGNC:4580]	146	0.14783547818660736	0.41990286	No	
+row_14	HTRA2	HtrA serine peptidase 2 [Source:HGNC Symbol;Acc:HGNC:14348]	158	0.13552618026733398	0.42402717	No	
+row_15	KCNJ6	potassium inwardly rectifying channel subfamily J member 6 [Source:HGNC Symbol;Acc:HGNC:6267]	199	0.08249618858098984	0.36298007	No	
+row_16	RAC1	Rac family small GTPase 1 [Source:HGNC Symbol;Acc:HGNC:9801]	283	0.0	0.20458312	No	
+row_17	KCNB2	potassium voltage-gated channel subfamily B member 2 [Source:HGNC Symbol;Acc:HGNC:6232]	351	-0.06565241515636444	0.08888771	No	
+row_18	GRIN2B	glutamate ionotropic receptor NMDA type subunit 2B [Source:HGNC Symbol;Acc:HGNC:4586]	400	-0.11608199030160904	0.018797802	No	
+row_19	GNA12	G protein subunit alpha 12 [Source:HGNC Symbol;Acc:HGNC:4380]	407	-0.12460992485284805	0.030441023	No	
+row_20	CACNA2D1	calcium voltage-gated channel auxiliary subunit alpha2delta 1 [Source:HGNC Symbol;Acc:HGNC:1399]	495	-0.2865876257419586	-0.08247704	No	
+row_21	RAMP1	receptor activity modifying protein 1 [Source:HGNC Symbol;Acc:HGNC:9843]	500	-0.30154120922088623	-0.03422685	No	
+row_22	GNG4	G protein subunit gamma 4 [Source:HGNC Symbol;Acc:HGNC:4407]	501	-0.3051920533180237	0.022333529	No	
+row_23	RAMP3	receptor activity modifying protein 3 [Source:HGNC Symbol;Acc:HGNC:9845]	509	-0.3428772985935211	0.07251923	No	

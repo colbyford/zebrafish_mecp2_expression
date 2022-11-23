@@ -1,0 +1,43 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FOXK2	forkhead box K2 [Source:HGNC Symbol;Acc:HGNC:6036]	11	0.432062566280365	0.022279827	No	
+row_1	TPPP	tubulin polymerization promoting protein [Source:HGNC Symbol;Acc:HGNC:24164]	22	0.3826572597026825	0.04150248	No	
+row_2	MFN1	mitofusin 1 [Source:HGNC Symbol;Acc:HGNC:18262]	44	0.2772013247013092	0.028242044	No	
+row_3	ACSF3	acyl-CoA synthetase family member 3 [Source:HGNC Symbol;Acc:HGNC:27288]	48	0.26968756318092346	0.049789224	No	
+row_4	ISCU	iron-sulfur cluster assembly enzyme [Source:HGNC Symbol;Acc:HGNC:29882]	59	0.24764563143253326	0.055256758	No	
+row_5	RNF5	ring finger protein 5 [Source:HGNC Symbol;Acc:HGNC:10068]	63	0.24046359956264496	0.073826574	No	
+row_6	MTFP1	mitochondrial fission process 1 [Source:HGNC Symbol;Acc:HGNC:26945]	87	0.2065662294626236	0.049417194	No	
+row_7	MAPK8IP1	mitogen-activated protein kinase 8 interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:6882]	101	0.1903679519891739	0.04312037	No	
+row_8	HTRA2	HtrA serine peptidase 2 [Source:HGNC Symbol;Acc:HGNC:14348]	158	0.13552618026733398	-0.053744033	No	
+row_9	CLPB	caseinolytic mitochondrial matrix peptidase chaperone subunit B [Source:HGNC Symbol;Acc:HGNC:30664]	170	0.121580109000206	-0.06309646	No	
+row_10	MTERF1	mitochondrial transcription termination factor 1 [Source:HGNC Symbol;Acc:HGNC:21463]	218	0.062298402190208435	-0.14963482	No	
+row_11	NDUFAF8	NADH:ubiquinone oxidoreductase complex assembly factor 8 [Source:HGNC Symbol;Acc:HGNC:33551]	223	0.05572746321558952	-0.15186238	No	
+row_12	TST	thiosulfate sulfurtransferase [Source:HGNC Symbol;Acc:HGNC:12388]	227	0.04954082518815994	-0.15274398	No	
+row_13	ARSB	arylsulfatase B [Source:HGNC Symbol;Acc:HGNC:714]	230	0.04736681282520294	-0.15187077	No	
+row_14	GTPBP8	GTP binding protein 8 (putative) [Source:HGNC Symbol;Acc:HGNC:25007]	237	0.03973767161369324	-0.15967996	No	
+row_15	SLC25A29	solute carrier family 25 member 29 [Source:HGNC Symbol;Acc:HGNC:20116]	254	0.020164718851447105	-0.18924612	No	
+row_16	COX7A2	cytochrome c oxidase subunit 7A2 [Source:HGNC Symbol;Acc:HGNC:2288]	260	0.010033958591520786	-0.19810528	No	
+row_17	SLIT3	slit guidance ligand 3 [Source:HGNC Symbol;Acc:HGNC:11087]	261	0.008568326942622662	-0.19723232	No	
+row_18	RAP1GDS1	Rap1 GTPase-GDP dissociation stimulator 1 [Source:HGNC Symbol;Acc:HGNC:9859]	299	-0.0024136784486472607	-0.27010894	No	
+row_19	TIMM21	translocase of inner mitochondrial membrane 21 [Source:HGNC Symbol;Acc:HGNC:25010]	327	-0.030598966404795647	-0.32035118	No	
+row_20	NDUFB1	NADH:ubiquinone oxidoreductase subunit B1 [Source:HGNC Symbol;Acc:HGNC:7695]	329	-0.034549131989479065	-0.31880757	No	
+row_21	GOLPH3	golgi phosphoprotein 3 [Source:HGNC Symbol;Acc:HGNC:15452]	340	-0.051562968641519547	-0.33331713	No	
+row_22	EARS2	glutamyl-tRNA synthetase 2, mitochondrial [Source:HGNC Symbol;Acc:HGNC:29419]	342	-0.052740003913640976	-0.3299202	No	
+row_23	STMP1	short transmembrane mitochondrial protein 1 [Source:HGNC Symbol;Acc:HGNC:41909]	392	-0.10586556792259216	-0.41597247	No	
+row_24	ASS1	argininosuccinate synthase 1 [Source:HGNC Symbol;Acc:HGNC:758]	398	-0.11293745040893555	-0.4143477	No	
+row_25	COQ10A	coenzyme Q10A [Source:HGNC Symbol;Acc:HGNC:26515]	399	-0.11497841775417328	-0.4026336	No	
+row_26	MRPS12	mitochondrial ribosomal protein S12 [Source:HGNC Symbol;Acc:HGNC:10380]	416	-0.1385096162557602	-0.42014265	No	
+row_27	COX5B	cytochrome c oxidase subunit 5B [Source:HGNC Symbol;Acc:HGNC:2269]	417	-0.13981950283050537	-0.4058977	No	
+row_28	PDPR	pyruvate dehydrogenase phosphatase regulatory subunit [Source:HGNC Symbol;Acc:HGNC:30264]	424	-0.14908000826835632	-0.402567	No	
+row_29	UBB	ubiquitin B [Source:HGNC Symbol;Acc:HGNC:12463]	435	-0.1655997782945633	-0.40545836	No	
+row_30	TMEM8B	transmembrane protein 8B [Source:HGNC Symbol;Acc:HGNC:21427]	449	-0.19294965267181396	-0.41149217	No	
+row_31	SLC9B2	solute carrier family 9 member B2 [Source:HGNC Symbol;Acc:HGNC:25143]	459	-0.20876289904117584	-0.40800977	No	
+row_32	CSKMT	citrate synthase lysine methyltransferase [Source:HGNC Symbol;Acc:HGNC:33113]	468	-0.22077511250972748	-0.40132725	No	
+row_33	MYG1	MYG1 exonuclease [Source:HGNC Symbol;Acc:HGNC:17590]	496	-0.29490897059440613	-0.4246413	Yes	
+row_34	MRPL49	mitochondrial ribosomal protein L49 [Source:HGNC Symbol;Acc:HGNC:1176]	514	-0.3813864290714264	-0.41938213	Yes	
+row_35	COA4	cytochrome c oxidase assembly factor 4 homolog [Source:HGNC Symbol;Acc:HGNC:24604]	515	-0.38999706506729126	-0.37964886	Yes	
+row_36	MCUR1	mitochondrial calcium uniporter regulator 1 [Source:HGNC Symbol;Acc:HGNC:21097]	516	-0.39041462540626526	-0.33987302	Yes	
+row_37	PYURF	PIGY upstream open reading frame [Source:HGNC Symbol;Acc:HGNC:44317]	535	-0.5481148958206177	-0.31960368	Yes	
+row_38	TIMM22	translocase of inner mitochondrial membrane 22 [Source:HGNC Symbol;Acc:HGNC:17317]	536	-0.5560224652290344	-0.26295555	Yes	
+row_39	HPDL	4-hydroxyphenylpyruvate dioxygenase like [Source:HGNC Symbol;Acc:HGNC:28242]	541	-0.661266028881073	-0.20349026	Yes	
+row_40	MTERF4	mitochondrial transcription termination factor 4 [Source:HGNC Symbol;Acc:HGNC:28785]	546	-0.9520676136016846	-0.1143978	Yes	
+row_41	KYAT3	kynurenine aminotransferase 3 [Source:HGNC Symbol;Acc:HGNC:33238]	547	-1.1228567361831665	-5.448237E-8	Yes	

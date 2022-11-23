@@ -1,0 +1,16 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ABCD2	ATP binding cassette subfamily D member 2 [Source:HGNC Symbol;Acc:HGNC:66]	53	0.25520142912864685	-0.010729709	No	
+row_1	XKR4	XK related 4 [Source:HGNC Symbol;Acc:HGNC:29394]	90	0.20213860273361206	-0.008009006	No	
+row_2	TMCC1	transmembrane and coiled-coil domain family 1 [Source:HGNC Symbol;Acc:HGNC:29116]	200	0.08205169439315796	-0.18399084	No	
+row_3	ANO7	anoctamin 7 [Source:HGNC Symbol;Acc:HGNC:31677]	257	0.012227755971252918	-0.28480616	No	
+row_4	STX3	syntaxin 3 [Source:HGNC Symbol;Acc:HGNC:11438]	308	-0.012719850055873394	-0.3741934	No	
+row_5	CAMSAP3	calmodulin regulated spectrin associated protein family member 3 [Source:HGNC Symbol;Acc:HGNC:29307]	312	-0.017831649631261826	-0.37362367	No	
+row_6	SERP1	stress associated endoplasmic reticulum protein 1 [Source:HGNC Symbol;Acc:HGNC:10759]	319	-0.02402741275727749	-0.37652883	No	
+row_7	GOLPH3	golgi phosphoprotein 3 [Source:HGNC Symbol;Acc:HGNC:15452]	340	-0.051562968641519547	-0.39612913	No	
+row_8	HOOK3	hook microtubule tethering protein 3 [Source:HGNC Symbol;Acc:HGNC:23576]	394	-0.10871399194002151	-0.45777753	Yes	
+row_9	AP1S2	adaptor related protein complex 1 subunit sigma 2 [Source:HGNC Symbol;Acc:HGNC:560]	406	-0.12192648649215698	-0.43603405	Yes	
+row_10	UBL4A	ubiquitin like 4A [Source:HGNC Symbol;Acc:HGNC:12505]	430	-0.16180087625980377	-0.42294443	Yes	
+row_11	DYNC2H1	dynein cytoplasmic 2 heavy chain 1 [Source:HGNC Symbol;Acc:HGNC:2962]	492	-0.275251567363739	-0.44171414	Yes	
+row_12	F2RL3	F2R like thrombin or trypsin receptor 3 [Source:HGNC Symbol;Acc:HGNC:3540]	497	-0.2950023412704468	-0.34667668	Yes	
+row_13	F2R	coagulation factor II thrombin receptor [Source:HGNC Symbol;Acc:HGNC:3537]	521	-0.41847264766693115	-0.2443685	Yes	
+row_14	YIPF5	Yip1 domain family member 5 [Source:HGNC Symbol;Acc:HGNC:24877]	544	-0.837959349155426	0.005628463	Yes	

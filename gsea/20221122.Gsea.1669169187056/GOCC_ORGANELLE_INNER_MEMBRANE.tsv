@@ -1,0 +1,16 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MTFP1	mitochondrial fission process 1 [Source:HGNC Symbol;Acc:HGNC:26945]	87	0.2065662294626236	-0.0824273	No	
+row_1	ATP11B	ATPase phospholipid transporting 11B (putative) [Source:HGNC Symbol;Acc:HGNC:13553]	248	0.02513653226196766	-0.37278262	No	
+row_2	SLC25A29	solute carrier family 25 member 29 [Source:HGNC Symbol;Acc:HGNC:20116]	254	0.020164718851447105	-0.37427592	No	
+row_3	COX7A2	cytochrome c oxidase subunit 7A2 [Source:HGNC Symbol;Acc:HGNC:2288]	260	0.010033958591520786	-0.37973192	No	
+row_4	TIMM21	translocase of inner mitochondrial membrane 21 [Source:HGNC Symbol;Acc:HGNC:25010]	327	-0.030598966404795647	-0.49159032	No	
+row_5	NDUFB1	NADH:ubiquinone oxidoreductase subunit B1 [Source:HGNC Symbol;Acc:HGNC:7695]	329	-0.034549131989479065	-0.4799524	No	
+row_6	STMP1	short transmembrane mitochondrial protein 1 [Source:HGNC Symbol;Acc:HGNC:41909]	392	-0.10586556792259216	-0.5548651	Yes	
+row_7	COQ10A	coenzyme Q10A [Source:HGNC Symbol;Acc:HGNC:26515]	399	-0.11497841775417328	-0.5211476	Yes	
+row_8	MRPS12	mitochondrial ribosomal protein S12 [Source:HGNC Symbol;Acc:HGNC:10380]	416	-0.1385096162557602	-0.4969874	Yes	
+row_9	COX5B	cytochrome c oxidase subunit 5B [Source:HGNC Symbol;Acc:HGNC:2269]	417	-0.13981950283050537	-0.44229612	Yes	
+row_10	MAJIN	membrane anchored junction protein [Source:HGNC Symbol;Acc:HGNC:27441]	451	-0.19371294975280762	-0.42843774	Yes	
+row_11	SLC9B2	solute carrier family 9 member B2 [Source:HGNC Symbol;Acc:HGNC:25143]	459	-0.20876289904117584	-0.359912	Yes	
+row_12	MRPL49	mitochondrial ribosomal protein L49 [Source:HGNC Symbol;Acc:HGNC:1176]	514	-0.3813864290714264	-0.31204358	Yes	
+row_13	MCUR1	mitochondrial calcium uniporter regulator 1 [Source:HGNC Symbol;Acc:HGNC:21097]	516	-0.39041462540626526	-0.16120654	Yes	
+row_14	TIMM22	translocase of inner mitochondrial membrane 22 [Source:HGNC Symbol;Acc:HGNC:17317]	536	-0.5560224652290344	0.020637937	Yes	

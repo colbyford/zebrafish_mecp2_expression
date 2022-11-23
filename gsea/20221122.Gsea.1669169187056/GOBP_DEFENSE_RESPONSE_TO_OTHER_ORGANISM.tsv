@@ -1,0 +1,16 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DDX17	DEAD-box helicase 17 [Source:HGNC Symbol;Acc:HGNC:2740]	166	0.1280716210603714	-0.25964758	No	
+row_1	MFAP4	microfibril associated protein 4 [Source:HGNC Symbol;Acc:HGNC:7035]	167	0.12683524191379547	-0.20835054	No	
+row_2	CLPB	caseinolytic mitochondrial matrix peptidase chaperone subunit B [Source:HGNC Symbol;Acc:HGNC:30664]	170	0.121580109000206	-0.16293123	No	
+row_3	SRMS	src-related kinase lacking C-terminal regulatory tyrosine and N-terminal myristylation sites [Source:HGNC Symbol;Acc:HGNC:11298]	231	0.047364380210638046	-0.2563456	No	
+row_4	AXL	AXL receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:905]	253	0.021630799397826195	-0.2869969	No	
+row_5	SEC14L1	SEC14 like lipid binding 1 [Source:HGNC Symbol;Acc:HGNC:10698]	320	-0.024318434298038483	-0.400989	No	
+row_6	OTOP1	otopetrin 1 [Source:HGNC Symbol;Acc:HGNC:19656]	333	-0.03946008160710335	-0.4075439	No	
+row_7	COLEC10	collectin subfamily member 10 [Source:HGNC Symbol;Acc:HGNC:2220]	345	-0.058158066123723984	-0.40466043	No	
+row_8	STMP1	short transmembrane mitochondrial protein 1 [Source:HGNC Symbol;Acc:HGNC:41909]	392	-0.10586556792259216	-0.44814828	Yes	
+row_9	ASS1	argininosuccinate synthase 1 [Source:HGNC Symbol;Acc:HGNC:758]	398	-0.11293745040893555	-0.41185293	Yes	
+row_10	ZC3H12A	zinc finger CCCH-type containing 12A [Source:HGNC Symbol;Acc:HGNC:26259]	444	-0.18272189795970917	-0.42238092	Yes	
+row_11	SLA	Src like adaptor [Source:HGNC Symbol;Acc:HGNC:10902]	455	-0.19759948551654816	-0.36122584	Yes	
+row_12	EIF2AK4	eukaryotic translation initiation factor 2 alpha kinase 4 [Source:HGNC Symbol;Acc:HGNC:19687]	475	-0.24330326914787292	-0.29847196	Yes	
+row_13	FLNB	filamin B [Source:HGNC Symbol;Acc:HGNC:3755]	518	-0.40845945477485657	-0.21207453	Yes	
+row_14	G3BP2	G3BP stress granule assembly factor 2 [Source:HGNC Symbol;Acc:HGNC:30291]	540	-0.6542588472366333	0.01313321	Yes	

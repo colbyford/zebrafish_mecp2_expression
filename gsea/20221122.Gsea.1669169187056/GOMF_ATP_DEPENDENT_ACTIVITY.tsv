@@ -1,0 +1,19 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ATP9A	ATPase phospholipid transporting 9A (putative) [Source:HGNC Symbol;Acc:HGNC:13540]	3	0.5420606732368469	0.10811211	Yes	
+row_1	YTHDC2	YTH domain containing 2 [Source:HGNC Symbol;Acc:HGNC:24721]	4	0.5276929140090942	0.21886897	Yes	
+row_2	ATP8A1	ATPase phospholipid transporting 8A1 [Source:HGNC Symbol;Acc:HGNC:13531]	9	0.4685143530368805	0.30965772	Yes	
+row_3	DHX35	DEAH-box helicase 35 [Source:HGNC Symbol;Acc:HGNC:15861]	31	0.3344844877719879	0.34023964	Yes	
+row_4	DNAH10	dynein axonemal heavy chain 10 [Source:HGNC Symbol;Acc:HGNC:2941]	32	0.31171858310699463	0.4056659	Yes	
+row_5	ACSF3	acyl-CoA synthetase family member 3 [Source:HGNC Symbol;Acc:HGNC:27288]	48	0.26968756318092346	0.43396842	Yes	
+row_6	ABCD2	ATP binding cassette subfamily D member 2 [Source:HGNC Symbol;Acc:HGNC:66]	53	0.25520142912864685	0.47998518	Yes	
+row_7	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4 [Source:HGNC Symbol;Acc:HGNC:11100]	115	0.1776048094034195	0.40216812	No	
+row_8	DDX17	DEAD-box helicase 17 [Source:HGNC Symbol;Acc:HGNC:2740]	166	0.1280716210603714	0.3347093	No	
+row_9	CLPB	caseinolytic mitochondrial matrix peptidase chaperone subunit B [Source:HGNC Symbol;Acc:HGNC:30664]	170	0.121580109000206	0.35456723	No	
+row_10	KIF2A	kinesin family member 2A [Source:HGNC Symbol;Acc:HGNC:6318]	175	0.11689458787441254	0.37155494	No	
+row_11	ATP11B	ATPase phospholipid transporting 11B (putative) [Source:HGNC Symbol;Acc:HGNC:13553]	248	0.02513653226196766	0.24098174	No	
+row_12	MYO1D	myosin ID [Source:HGNC Symbol;Acc:HGNC:7598]	364	-0.07171908020973206	0.039053645	No	
+row_13	MYO9B	myosin IXB [Source:HGNC Symbol;Acc:HGNC:7609]	369	-0.0753481462597847	0.04732121	No	
+row_14	KIF1C	kinesin family member 1C [Source:HGNC Symbol;Acc:HGNC:6317]	385	-0.09236525744199753	0.03840576	No	
+row_15	XRCC2	X-ray repair cross complementing 2 [Source:HGNC Symbol;Acc:HGNC:12829]	478	-0.2463112324476242	-0.08348117	No	
+row_16	DYNC2H1	dynein cytoplasmic 2 heavy chain 1 [Source:HGNC Symbol;Acc:HGNC:2962]	492	-0.275251567363739	-0.050237235	No	
+row_17	AK6	adenylate kinase 6 [Source:HGNC Symbol;Acc:HGNC:49151]	543	-0.7247843742370605	0.0075472924	No	

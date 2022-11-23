@@ -1,0 +1,17 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ACVR1C	activin A receptor type 1C [Source:HGNC Symbol;Acc:HGNC:18123]	84	0.21144512295722961	-0.08273489	No	
+row_1	RNF180	ring finger protein 180 [Source:HGNC Symbol;Acc:HGNC:27752]	118	0.17366114258766174	-0.08303574	No	
+row_2	HTRA2	HtrA serine peptidase 2 [Source:HGNC Symbol;Acc:HGNC:14348]	158	0.13552618026733398	-0.10817015	No	
+row_3	ANOS1	anosmin 1 [Source:HGNC Symbol;Acc:HGNC:6211]	174	0.11882707476615906	-0.09412761	No	
+row_4	TRIM67	tripartite motif containing 67 [Source:HGNC Symbol;Acc:HGNC:31859]	176	0.11451999098062515	-0.055300266	No	
+row_5	UBE2O	ubiquitin conjugating enzyme E2 O [Source:HGNC Symbol;Acc:HGNC:29554]	212	0.06923332065343857	-0.096480206	No	
+row_6	CTSZ	cathepsin Z [Source:HGNC Symbol;Acc:HGNC:2547]	315	-0.020424403250217438	-0.28094953	No	
+row_7	GRIN2B	glutamate ionotropic receptor NMDA type subunit 2B [Source:HGNC Symbol;Acc:HGNC:4586]	400	-0.11608199030160904	-0.397582	Yes	
+row_8	GNA12	G protein subunit alpha 12 [Source:HGNC Symbol;Acc:HGNC:4380]	407	-0.12460992485284805	-0.3645666	Yes	
+row_9	UBB	ubiquitin B [Source:HGNC Symbol;Acc:HGNC:12463]	435	-0.1655997782945633	-0.35645473	Yes	
+row_10	ZC3H12A	zinc finger CCCH-type containing 12A [Source:HGNC Symbol;Acc:HGNC:26259]	444	-0.18272189795970917	-0.30654237	Yes	
+row_11	ELOB	elongin B [Source:HGNC Symbol;Acc:HGNC:11619]	452	-0.19371294975280762	-0.25084347	Yes	
+row_12	PDCL3	phosducin like 3 [Source:HGNC Symbol;Acc:HGNC:28860]	465	-0.21573606133460999	-0.19671474	Yes	
+row_13	XPO1	exportin 1 [Source:HGNC Symbol;Acc:HGNC:12825]	484	-0.2545144259929657	-0.14008015	Yes	
+row_14	SH3RF3	SH3 domain containing ring finger 3 [Source:HGNC Symbol;Acc:HGNC:24699]	499	-0.298185259103775	-0.060403623	Yes	
+row_15	F2R	coagulation factor II thrombin receptor [Source:HGNC Symbol;Acc:HGNC:3537]	521	-0.41847264766693115	0.048872117	Yes	

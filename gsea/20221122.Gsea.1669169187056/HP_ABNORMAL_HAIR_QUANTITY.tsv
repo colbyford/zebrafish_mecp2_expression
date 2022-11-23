@@ -1,0 +1,18 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MMP23B	matrix metallopeptidase 23B [Source:HGNC Symbol;Acc:HGNC:7171]	6	0.5030797719955444	0.16252539	Yes	
+row_1	KCNMA1	potassium calcium-activated channel subfamily M alpha 1 [Source:HGNC Symbol;Acc:HGNC:6284]	13	0.42349883913993835	0.29755384	Yes	
+row_2	TRAPPC9	trafficking protein particle complex subunit 9 [Source:HGNC Symbol;Acc:HGNC:30832]	77	0.2252570241689682	0.2567409	Yes	
+row_3	FRMD4A	FERM domain containing 4A [Source:HGNC Symbol;Acc:HGNC:25491]	85	0.209878072142601	0.3160756	Yes	
+row_4	FAT4	FAT atypical cadherin 4 [Source:HGNC Symbol;Acc:HGNC:23109]	113	0.18037590384483337	0.32755184	Yes	
+row_5	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4 [Source:HGNC Symbol;Acc:HGNC:11100]	115	0.1776048094034195	0.38703486	Yes	
+row_6	RASA2	RAS p21 protein activator 2 [Source:HGNC Symbol;Acc:HGNC:9872]	128	0.16437260806560516	0.42123026	Yes	
+row_7	RIN2	Ras and Rab interactor 2 [Source:HGNC Symbol;Acc:HGNC:18750]	169	0.12509749829769135	0.38912454	Yes	
+row_8	ANOS1	anosmin 1 [Source:HGNC Symbol;Acc:HGNC:6211]	174	0.11882707476615906	0.42264888	Yes	
+row_9	NUP85	nucleoporin 85 [Source:HGNC Symbol;Acc:HGNC:8734]	178	0.1121605634689331	0.45575303	Yes	
+row_10	FIG4	FIG4 phosphoinositide 5-phosphatase [Source:HGNC Symbol;Acc:HGNC:16873]	187	0.10358111560344696	0.4764766	Yes	
+row_11	ARSB	arylsulfatase B [Source:HGNC Symbol;Acc:HGNC:714]	230	0.04736681282520294	0.4137468	No	
+row_12	AXL	AXL receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:905]	253	0.021630799397826195	0.37978947	No	
+row_13	BNC1	basonuclin 1 [Source:HGNC Symbol;Acc:HGNC:1081]	348	-0.06030648574233055	0.22360216	No	
+row_14	SPEN	spen family transcriptional repressor [Source:HGNC Symbol;Acc:HGNC:17575]	389	-0.10161585360765457	0.18338305	No	
+row_15	APCDD1	APC down-regulated 1 [Source:HGNC Symbol;Acc:HGNC:15718]	418	-0.1406271606683731	0.17924203	No	
+row_16	MRAS	muscle RAS oncogene homolog [Source:HGNC Symbol;Acc:HGNC:7227]	441	-0.17889653146266937	0.19962335	No	

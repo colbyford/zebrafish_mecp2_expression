@@ -1,0 +1,16 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NABP2	nucleic acid binding protein 2 [Source:HGNC Symbol;Acc:HGNC:28412]	43	0.2824177145957947	0.007176728	No	
+row_1	HTRA2	HtrA serine peptidase 2 [Source:HGNC Symbol;Acc:HGNC:14348]	158	0.13552618026733398	-0.16454859	No	
+row_2	NUP85	nucleoporin 85 [Source:HGNC Symbol;Acc:HGNC:8734]	178	0.1121605634689331	-0.1653059	No	
+row_3	RYR2	ryanodine receptor 2 [Source:HGNC Symbol;Acc:HGNC:10484]	195	0.08844326436519623	-0.16781247	No	
+row_4	RANBP2	RAN binding protein 2 [Source:HGNC Symbol;Acc:HGNC:9848]	222	0.057969603687524796	-0.19856025	No	
+row_5	TIMM21	translocase of inner mitochondrial membrane 21 [Source:HGNC Symbol;Acc:HGNC:25010]	327	-0.030598966404795647	-0.38416374	No	
+row_6	ATG14	autophagy related 14 [Source:HGNC Symbol;Acc:HGNC:19962]	331	-0.03727354481816292	-0.37819752	No	
+row_7	TNPO2	transportin 2 [Source:HGNC Symbol;Acc:HGNC:19998]	334	-0.0402897447347641	-0.36941686	No	
+row_8	FAM53C	family with sequence similarity 53 member C [Source:HGNC Symbol;Acc:HGNC:1336]	396	-0.10972944647073746	-0.44972968	No	
+row_9	UBL4A	ubiquitin like 4A [Source:HGNC Symbol;Acc:HGNC:12505]	430	-0.16180087625980377	-0.4613117	Yes	
+row_10	ZC3H12A	zinc finger CCCH-type containing 12A [Source:HGNC Symbol;Acc:HGNC:26259]	444	-0.18272189795970917	-0.42886233	Yes	
+row_11	LAMP5	lysosomal associated membrane protein family member 5 [Source:HGNC Symbol;Acc:HGNC:16097]	450	-0.19344033300876617	-0.3780694	Yes	
+row_12	MDFIC	MyoD family inhibitor domain containing [Source:HGNC Symbol;Acc:HGNC:28870]	491	-0.27423110604286194	-0.36781076	Yes	
+row_13	TIMM22	translocase of inner mitochondrial membrane 22 [Source:HGNC Symbol;Acc:HGNC:17317]	536	-0.5560224652290344	-0.27739954	Yes	
+row_14	MTERF4	mitochondrial transcription termination factor 4 [Source:HGNC Symbol;Acc:HGNC:28785]	546	-0.9520676136016846	0.0018761754	Yes	

@@ -1,0 +1,16 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HTR7	5-hydroxytryptamine receptor 7 [Source:HGNC Symbol;Acc:HGNC:5302]	2	0.6050134897232056	0.16411409	Yes	
+row_1	NCKAP1L	NCK associated protein 1 like [Source:HGNC Symbol;Acc:HGNC:4862]	7	0.48860716819763184	0.29217786	Yes	
+row_2	KCNMA1	potassium calcium-activated channel subfamily M alpha 1 [Source:HGNC Symbol;Acc:HGNC:6284]	13	0.42349883913993835	0.40030056	Yes	
+row_3	XK	X-linked Kx blood group [Source:HGNC Symbol;Acc:HGNC:12811]	21	0.38750091195106506	0.49468297	Yes	
+row_4	MAP3K13	mitogen-activated protein kinase kinase kinase 13 [Source:HGNC Symbol;Acc:HGNC:6852]	100	0.190499946475029	0.40119743	No	
+row_5	SNTA1	syntrophin alpha 1 [Source:HGNC Symbol;Acc:HGNC:11167]	102	0.19006119668483734	0.45205545	No	
+row_6	FCHSD2	FCH and double SH3 domains 2 [Source:HGNC Symbol;Acc:HGNC:29114]	114	0.18033502995967865	0.48145312	No	
+row_7	CRACD	capping protein inhibiting regulator of actin dynamics [Source:HGNC Symbol;Acc:HGNC:29219]	190	0.09924335032701492	0.36827615	No	
+row_8	DOCK4	dedicator of cytokinesis 4 [Source:HGNC Symbol;Acc:HGNC:19192]	244	0.029067091643810272	0.27690393	No	
+row_9	RAC1	Rac family small GTPase 1 [Source:HGNC Symbol;Acc:HGNC:9801]	283	0.0	0.20560937	No	
+row_10	RAP1GDS1	Rap1 GTPase-GDP dissociation stimulator 1 [Source:HGNC Symbol;Acc:HGNC:9859]	299	-0.0024136784486472607	0.17813648	No	
+row_11	PPP1CA	protein phosphatase 1 catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:9281]	306	-0.010933333076536655	0.169913	No	
+row_12	MYADM	myeloid associated differentiation marker [Source:HGNC Symbol;Acc:HGNC:7544]	374	-0.07775488495826721	0.065783225	No	
+row_13	F2R	coagulation factor II thrombin receptor [Source:HGNC Symbol;Acc:HGNC:3537]	521	-0.41847264766693115	-0.092028975	No	
+row_14	WDR1	WD repeat domain 1 [Source:HGNC Symbol;Acc:HGNC:12754]	531	-0.5007343888282776	0.030018747	No	

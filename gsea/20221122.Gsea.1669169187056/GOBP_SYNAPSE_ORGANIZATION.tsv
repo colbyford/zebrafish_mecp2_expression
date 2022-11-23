@@ -1,0 +1,17 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ARHGAP22	Rho GTPase activating protein 22 [Source:HGNC Symbol;Acc:HGNC:30320]	28	0.3463762104511261	0.0620344	Yes	
+row_1	PCDH8	protocadherin 8 [Source:HGNC Symbol;Acc:HGNC:8660]	41	0.2866455316543579	0.13437046	Yes	
+row_2	SRCIN1	SRC kinase signaling inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:29506]	67	0.23494967818260193	0.16515681	Yes	
+row_3	SYNDIG1	synapse differentiation inducing 1 [Source:HGNC Symbol;Acc:HGNC:15885]	80	0.22164131700992584	0.21597357	Yes	
+row_4	ERC1	ELKS/RAB6-interacting/CAST family member 1 [Source:HGNC Symbol;Acc:HGNC:17072]	88	0.20347243547439575	0.27017412	Yes	
+row_5	SNTA1	syntrophin alpha 1 [Source:HGNC Symbol;Acc:HGNC:11167]	102	0.19006119668483734	0.30865678	Yes	
+row_6	NRXN2	neurexin 2 [Source:HGNC Symbol;Acc:HGNC:8009]	106	0.18802453577518463	0.36526218	Yes	
+row_7	EPHB3	EPH receptor B3 [Source:HGNC Symbol;Acc:HGNC:3394]	116	0.17757272720336914	0.40712938	Yes	
+row_8	KIRREL3	kirre like nephrin family adhesion molecule 3 [Source:HGNC Symbol;Acc:HGNC:23204]	129	0.1633540689945221	0.43865046	Yes	
+row_9	GABRB2	gamma-aminobutyric acid type A receptor subunit beta2 [Source:HGNC Symbol;Acc:HGNC:4082]	130	0.16311872005462646	0.49265003	Yes	
+row_10	UNC13B	unc-13 homolog B [Source:HGNC Symbol;Acc:HGNC:12566]	224	0.05372397601604462	0.33562303	No	
+row_11	PTPRD	protein tyrosine phosphatase receptor type D [Source:HGNC Symbol;Acc:HGNC:9668]	240	0.035044871270656586	0.31902897	No	
+row_12	ADGRL3	adhesion G protein-coupled receptor L3 [Source:HGNC Symbol;Acc:HGNC:20974]	363	-0.07109992951154709	0.1132429	No	
+row_13	GRIN2B	glutamate ionotropic receptor NMDA type subunit 2B [Source:HGNC Symbol;Acc:HGNC:4586]	400	-0.11608199030160904	0.08400204	No	
+row_14	TANC2	tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 2 [Source:HGNC Symbol;Acc:HGNC:30212]	426	-0.15110120177268982	0.0870308	No	
+row_15	F2R	coagulation factor II thrombin receptor [Source:HGNC Symbol;Acc:HGNC:3537]	521	-0.41847264766693115	0.04887218	No	

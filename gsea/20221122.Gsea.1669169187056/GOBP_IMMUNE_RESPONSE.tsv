@@ -1,0 +1,28 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NCKAP1L	NCK associated protein 1 like [Source:HGNC Symbol;Acc:HGNC:4862]	7	0.48860716819763184	0.07445907	No	
+row_1	GPR151	G protein-coupled receptor 151 [Source:HGNC Symbol;Acc:HGNC:23624]	50	0.2640330493450165	0.041341353	No	
+row_2	RAPGEF4	Rap guanine nucleotide exchange factor 4 [Source:HGNC Symbol;Acc:HGNC:16626]	165	0.12990252673625946	-0.15410067	No	
+row_3	MFAP4	microfibril associated protein 4 [Source:HGNC Symbol;Acc:HGNC:7035]	167	0.12683524191379547	-0.13320386	No	
+row_4	CLPB	caseinolytic mitochondrial matrix peptidase chaperone subunit B [Source:HGNC Symbol;Acc:HGNC:30664]	170	0.121580109000206	-0.11517178	No	
+row_5	RAP1GAP	RAP1 GTPase activating protein [Source:HGNC Symbol;Acc:HGNC:9858]	185	0.1072947084903717	-0.12274211	No	
+row_6	SIPA1	signal-induced proliferation-associated 1 [Source:HGNC Symbol;Acc:HGNC:10885]	210	0.07175265997648239	-0.1558999	No	
+row_7	SRMS	src-related kinase lacking C-terminal regulatory tyrosine and N-terminal myristylation sites [Source:HGNC Symbol;Acc:HGNC:11298]	231	0.047364380210638046	-0.18576731	No	
+row_8	PTPRD	protein tyrosine phosphatase receptor type D [Source:HGNC Symbol;Acc:HGNC:9668]	240	0.035044871270656586	-0.19481823	No	
+row_9	AXL	AXL receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:905]	253	0.021630799397826195	-0.21395972	No	
+row_10	MIR19A	microRNA 19a [Source:HGNC Symbol;Acc:HGNC:31574]	285	0.0	-0.2734607	No	
+row_11	SEC14L1	SEC14 like lipid binding 1 [Source:HGNC Symbol;Acc:HGNC:10698]	320	-0.024318434298038483	-0.3343452	No	
+row_12	OTOP1	otopetrin 1 [Source:HGNC Symbol;Acc:HGNC:19656]	333	-0.03946008160710335	-0.35027942	No	
+row_13	COLEC10	collectin subfamily member 10 [Source:HGNC Symbol;Acc:HGNC:2220]	345	-0.058158066123723984	-0.36093068	No	
+row_14	STMP1	short transmembrane mitochondrial protein 1 [Source:HGNC Symbol;Acc:HGNC:41909]	392	-0.10586556792259216	-0.43017843	No	
+row_15	ASS1	argininosuccinate synthase 1 [Source:HGNC Symbol;Acc:HGNC:758]	398	-0.11293745040893555	-0.41945922	No	
+row_16	ZC3H12A	zinc finger CCCH-type containing 12A [Source:HGNC Symbol;Acc:HGNC:26259]	444	-0.18272189795970917	-0.47296205	Yes	
+row_17	CMKLR1	chemerin chemokine-like receptor 1 [Source:HGNC Symbol;Acc:HGNC:2121]	454	-0.19759948551654816	-0.45469067	Yes	
+row_18	SLA	Src like adaptor [Source:HGNC Symbol;Acc:HGNC:10902]	455	-0.19759948551654816	-0.4191448	Yes	
+row_19	SH2B2	SH2B adaptor protein 2 [Source:HGNC Symbol;Acc:HGNC:17381]	466	-0.2158137708902359	-0.39951625	Yes	
+row_20	EIF2AK4	eukaryotic translation initiation factor 2 alpha kinase 4 [Source:HGNC Symbol;Acc:HGNC:19687]	475	-0.24330326914787292	-0.3711039	Yes	
+row_21	SHLD2	shieldin complex subunit 2 [Source:HGNC Symbol;Acc:HGNC:28773]	480	-0.24810738861560822	-0.3341498	Yes	
+row_22	PKHD1L1	PKHD1 like 1 [Source:HGNC Symbol;Acc:HGNC:20313]	508	-0.3423127830028534	-0.32439512	Yes	
+row_23	FLNB	filamin B [Source:HGNC Symbol;Acc:HGNC:3755]	518	-0.40845945477485657	-0.26819247	Yes	
+row_24	TCIM	transcriptional and immune response regulator [Source:HGNC Symbol;Acc:HGNC:1357]	533	-0.53273606300354	-0.19923085	Yes	
+row_25	SBNO2	strawberry notch homolog 2 [Source:HGNC Symbol;Acc:HGNC:29158]	538	-0.5813043713569641	-0.10233847	Yes	
+row_26	G3BP2	G3BP stress granule assembly factor 2 [Source:HGNC Symbol;Acc:HGNC:30291]	540	-0.6542588472366333	0.013435728	Yes	

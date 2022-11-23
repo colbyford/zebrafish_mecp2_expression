@@ -1,0 +1,19 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	SAMD4B	sterile alpha motif domain containing 4B [Source:HGNC Symbol;Acc:HGNC:25492]	30	0.3414229452610016	0.08448982	No	
+row_1	TENT5A	terminal nucleotidyltransferase 5A [Source:HGNC Symbol;Acc:HGNC:18345]	188	0.10044058412313461	-0.17022936	No	
+row_2	CSDC2	cold shock domain containing C2 [Source:HGNC Symbol;Acc:HGNC:30359]	259	0.010061054490506649	-0.29814708	No	
+row_3	MIR199B	microRNA 199b [Source:HGNC Symbol;Acc:HGNC:31573]	276	0.0	-0.32833576	No	
+row_4	MIR19A	microRNA 19a [Source:HGNC Symbol;Acc:HGNC:31574]	285	0.0	-0.3434301	No	
+row_5	MIR150	microRNA 150 [Source:HGNC Symbol;Acc:HGNC:31537]	287	0.0	-0.3453169	No	
+row_6	MIR96	microRNA 96 [Source:HGNC Symbol;Acc:HGNC:31648]	293	0.0	-0.35475087	No	
+row_7	MIR363	microRNA 363 [Source:HGNC Symbol;Acc:HGNC:32023]	296	0.0	-0.35852444	No	
+row_8	PPP1CA	protein phosphatase 1 catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:9281]	306	-0.010933333076536655	-0.37098736	No	
+row_9	DXO	decapping exoribonuclease [Source:HGNC Symbol;Acc:HGNC:2992]	310	-0.015397351235151291	-0.37028477	No	
+row_10	SERP1	stress associated endoplasmic reticulum protein 1 [Source:HGNC Symbol;Acc:HGNC:10759]	319	-0.02402741275727749	-0.37544972	No	
+row_11	ATG14	autophagy related 14 [Source:HGNC Symbol;Acc:HGNC:19962]	331	-0.03727354481816292	-0.38080108	No	
+row_12	MARF1	meiosis regulator and mRNA stability factor 1 [Source:HGNC Symbol;Acc:HGNC:29562]	380	-0.08699657768011093	-0.43541566	No	
+row_13	ZC3H12A	zinc finger CCCH-type containing 12A [Source:HGNC Symbol;Acc:HGNC:26259]	444	-0.18272189795970917	-0.47877344	Yes	
+row_14	EIF2AK4	eukaryotic translation initiation factor 2 alpha kinase 4 [Source:HGNC Symbol;Acc:HGNC:19687]	475	-0.24330326914787292	-0.43483174	Yes	
+row_15	METTL18	methyltransferase like 18 [Source:HGNC Symbol;Acc:HGNC:28793]	476	-0.24371665716171265	-0.33411542	Yes	
+row_16	LIN28A	lin-28 homolog A [Source:HGNC Symbol;Acc:HGNC:15986]	482	-0.2532649338245392	-0.23888722	Yes	
+row_17	XPO5	exportin 5 [Source:HGNC Symbol;Acc:HGNC:17675]	545	-0.8702734708786011	0.0037736096	Yes	

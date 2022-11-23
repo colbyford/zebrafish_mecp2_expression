@@ -1,0 +1,44 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CC2D1A	coiled-coil and C2 domain containing 1A [Source:HGNC Symbol;Acc:HGNC:30237]	95	0.19668535888195038	-0.15074192	No	
+row_1	SNORA7A	small nucleolar RNA, H/ACA box 7A [Source:HGNC Symbol;Acc:HGNC:32592]	97	0.19371294975280762	-0.115910076	No	
+row_2	SNORA69	small nucleolar RNA, H/ACA box 69 [Source:HGNC Symbol;Acc:HGNC:10226]	98	0.19371294975280762	-0.07909803	No	
+row_3	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4 [Source:HGNC Symbol;Acc:HGNC:11100]	115	0.1776048094034195	-0.07703026	No	
+row_4	DDX17	DEAD-box helicase 17 [Source:HGNC Symbol;Acc:HGNC:2740]	166	0.1280716210603714	-0.1517022	No	
+row_5	KIF2A	kinesin family member 2A [Source:HGNC Symbol;Acc:HGNC:6318]	175	0.11689458787441254	-0.14532985	No	
+row_6	NFX1	nuclear transcription factor, X-box binding 1 [Source:HGNC Symbol;Acc:HGNC:7803]	183	0.10735587030649185	-0.13878997	No	
+row_7	SNORA81	small nucleolar RNA, H/ACA box 81 [Source:HGNC Symbol;Acc:HGNC:32667]	203	0.07648744434118271	-0.16187853	No	
+row_8	DOCK4	dedicator of cytokinesis 4 [Source:HGNC Symbol;Acc:HGNC:19192]	244	0.029067091643810272	-0.23556271	No	
+row_9	SNORA38	small nucleolar RNA, H/ACA box 38 [Source:HGNC Symbol;Acc:HGNC:32631]	266	0.0	-0.27714688	No	
+row_10	SNORD97	small nucleolar RNA, C/D box 97 [Source:HGNC Symbol;Acc:HGNC:32760]	268	0.0	-0.27912706	No	
+row_11	SNORA31	small nucleolar RNA, H/ACA box 31 [Source:HGNC Symbol;Acc:HGNC:32621]	269	0.0	-0.27912706	No	
+row_12	SNORD82	small nucleolar RNA, C/D box 82 [Source:HGNC Symbol;Acc:HGNC:10240]	270	0.0	-0.27912706	No	
+row_13	SNORA55	small nucleolar RNA, H/ACA box 55 [Source:HGNC Symbol;Acc:HGNC:32649]	271	0.0	-0.27912706	No	
+row_14	SNORD6	small nucleolar RNA, C/D box 6 [Source:HGNC Symbol;Acc:HGNC:32703]	272	0.0	-0.27912706	No	
+row_15	SNORA77	small nucleolar RNA, H/ACA box 77 [Source:HGNC Symbol;Acc:HGNC:32663]	273	0.0	-0.27912706	No	
+row_16	SCARNA14	small Cajal body-specific RNA 14 [Source:HGNC Symbol;Acc:HGNC:32571]	274	0.0	-0.27912706	No	
+row_17	SCARNA11	small Cajal body-specific RNA 11 [Source:HGNC Symbol;Acc:HGNC:32568]	275	0.0	-0.27912706	No	
+row_18	SNORD11B	small nucleolar RNA, C/D box 11B [Source:HGNC Symbol;Acc:HGNC:33571]	281	0.0	-0.28902805	No	
+row_19	SNORD42B	small nucleolar RNA, C/D box 42B [Source:HGNC Symbol;Acc:HGNC:10181]	284	0.0	-0.29298845	No	
+row_20	SNORD10	small nucleolar RNA, C/D box 10 [Source:HGNC Symbol;Acc:HGNC:32706]	288	0.0	-0.29892904	No	
+row_21	SNORD30	small nucleolar RNA, C/D box 30 [Source:HGNC Symbol;Acc:HGNC:10157]	290	0.0	-0.30090925	No	
+row_22	SNORD21	small nucleolar RNA, C/D box 21 [Source:HGNC Symbol;Acc:HGNC:10144]	292	0.0	-0.30288944	No	
+row_23	SNORD57	small nucleolar RNA, C/D box 57 [Source:HGNC Symbol;Acc:HGNC:10207]	294	0.0	-0.30486965	No	
+row_24	SNORD54	small nucleolar RNA, C/D box 54 [Source:HGNC Symbol;Acc:HGNC:10204]	295	0.0	-0.30486965	No	
+row_25	SNORD46	small nucleolar RNA, C/D box 46 [Source:HGNC Symbol;Acc:HGNC:10186]	297	0.0	-0.30684984	No	
+row_26	RERG	RAS like estrogen regulated growth inhibitor [Source:HGNC Symbol;Acc:HGNC:15980]	303	-0.009306969121098518	-0.31498218	No	
+row_27	PPP1CA	protein phosphatase 1 catalytic subunit alpha [Source:HGNC Symbol;Acc:HGNC:9281]	306	-0.010933333076536655	-0.31686488	No	
+row_28	UBLCP1	ubiquitin like domain containing CTD phosphatase 1 [Source:HGNC Symbol;Acc:HGNC:28110]	332	-0.037299834191799164	-0.3592816	No	
+row_29	BNC1	basonuclin 1 [Source:HGNC Symbol;Acc:HGNC:1081]	348	-0.06030648574233055	-0.3775243	No	
+row_30	GPATCH2	G-patch domain containing 2 [Source:HGNC Symbol;Acc:HGNC:25499]	358	-0.06849033385515213	-0.38233057	No	
+row_31	IQSEC1	IQ motif and Sec7 domain ArfGEF 1 [Source:HGNC Symbol;Acc:HGNC:29112]	384	-0.09198041260242462	-0.41435614	No	
+row_32	HUS1B	HUS1 checkpoint clamp component B [Source:HGNC Symbol;Acc:HGNC:16485]	388	-0.09493455290794373	-0.40225592	No	
+row_33	SCARNA6	small Cajal body-specific RNA 6 [Source:HGNC Symbol;Acc:HGNC:32562]	415	-0.13552618026733398	-0.4279865	No	
+row_34	METTL18	methyltransferase like 18 [Source:HGNC Symbol;Acc:HGNC:28793]	476	-0.24371665716171265	-0.50048393	Yes	
+row_35	LIN28A	lin-28 homolog A [Source:HGNC Symbol;Acc:HGNC:15986]	482	-0.2532649338245392	-0.46225598	Yes	
+row_36	XPO1	exportin 1 [Source:HGNC Symbol;Acc:HGNC:12825]	484	-0.2545144259929657	-0.4158698	Yes	
+row_37	MDFIC	MyoD family inhibitor domain containing [Source:HGNC Symbol;Acc:HGNC:28870]	491	-0.27423110604286194	-0.37563777	Yes	
+row_38	MYG1	MYG1 exonuclease [Source:HGNC Symbol;Acc:HGNC:17590]	496	-0.29490897059440613	-0.32751584	Yes	
+row_39	UTP14C	UTP14C small subunit processome component [Source:HGNC Symbol;Acc:HGNC:20321]	522	-0.4195011556148529	-0.29730132	Yes	
+row_40	TCIM	transcriptional and immune response regulator [Source:HGNC Symbol;Acc:HGNC:1357]	533	-0.53273606300354	-0.21586534	Yes	
+row_41	SCARNA13	small Cajal body-specific RNA 13 [Source:HGNC Symbol;Acc:HGNC:32570]	534	-0.5361884832382202	-0.11397132	Yes	
+row_42	AK6	adenylate kinase 6 [Source:HGNC Symbol;Acc:HGNC:49151]	543	-0.7247843742370605	0.007920749	Yes	

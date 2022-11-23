@@ -1,0 +1,27 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ATP9A	ATPase phospholipid transporting 9A (putative) [Source:HGNC Symbol;Acc:HGNC:13540]	3	0.5420606732368469	0.09257854	Yes	
+row_1	YTHDC2	YTH domain containing 2 [Source:HGNC Symbol;Acc:HGNC:24721]	4	0.5276929140090942	0.188298	Yes	
+row_2	ATP8A1	ATPase phospholipid transporting 8A1 [Source:HGNC Symbol;Acc:HGNC:13531]	9	0.4685143530368805	0.26562008	Yes	
+row_3	TPPP	tubulin polymerization promoting protein [Source:HGNC Symbol;Acc:HGNC:24164]	22	0.3826572597026825	0.31204268	Yes	
+row_4	DHX35	DEAH-box helicase 35 [Source:HGNC Symbol;Acc:HGNC:15861]	31	0.3344844877719879	0.35738996	Yes	
+row_5	MFN1	mitofusin 1 [Source:HGNC Symbol;Acc:HGNC:18262]	44	0.2772013247013092	0.38468364	Yes	
+row_6	ABCD2	ATP binding cassette subfamily D member 2 [Source:HGNC Symbol;Acc:HGNC:66]	53	0.25520142912864685	0.41564956	Yes	
+row_7	GNAZ	G protein subunit alpha z [Source:HGNC Symbol;Acc:HGNC:4395]	71	0.2290232926607132	0.42462558	Yes	
+row_8	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4 [Source:HGNC Symbol;Acc:HGNC:11100]	115	0.1776048094034195	0.37446627	No	
+row_9	DDX17	DEAD-box helicase 17 [Source:HGNC Symbol;Acc:HGNC:2740]	166	0.1280716210603714	0.30191204	No	
+row_10	CLPB	caseinolytic mitochondrial matrix peptidase chaperone subunit B [Source:HGNC Symbol;Acc:HGNC:30664]	170	0.121580109000206	0.31821862	No	
+row_11	KIF2A	kinesin family member 2A [Source:HGNC Symbol;Acc:HGNC:6318]	175	0.11689458787441254	0.33175957	No	
+row_12	RAP1GAP	RAP1 GTPase activating protein [Source:HGNC Symbol;Acc:HGNC:9858]	185	0.1072947084903717	0.33398062	No	
+row_13	RAB35	RAB35, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:9774]	197	0.0860319435596466	0.32851338	No	
+row_14	ATP11B	ATPase phospholipid transporting 11B (putative) [Source:HGNC Symbol;Acc:HGNC:13553]	248	0.02513653226196766	0.2372875	No	
+row_15	RAC1	Rac family small GTPase 1 [Source:HGNC Symbol;Acc:HGNC:9801]	283	0.0	0.17215341	No	
+row_16	RGS13	regulator of G protein signaling 13 [Source:HGNC Symbol;Acc:HGNC:9995]	298	0.0	0.14533348	No	
+row_17	RERG	RAS like estrogen regulated growth inhibitor [Source:HGNC Symbol;Acc:HGNC:15980]	303	-0.009306969121098518	0.13935886	No	
+row_18	DXO	decapping exoribonuclease [Source:HGNC Symbol;Acc:HGNC:2992]	310	-0.015397351235151291	0.13065758	No	
+row_19	MYO9B	myosin IXB [Source:HGNC Symbol;Acc:HGNC:7609]	369	-0.0753481462597847	0.033214048	No	
+row_20	KIF1C	kinesin family member 1C [Source:HGNC Symbol;Acc:HGNC:6317]	385	-0.09236525744199753	0.021232767	No	
+row_21	GNA12	G protein subunit alpha 12 [Source:HGNC Symbol;Acc:HGNC:4380]	407	-0.12460992485284805	0.0036061706	No	
+row_22	RAB19	RAB19, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:19982]	425	-0.1496623456478119	-0.0018132724	No	
+row_23	MRAS	muscle RAS oncogene homolog [Source:HGNC Symbol;Acc:HGNC:7227]	441	-0.17889653146266937	0.0019015598	No	
+row_24	RASL10B	RAS like family 10 member B [Source:HGNC Symbol;Acc:HGNC:30295]	512	-0.36309078335762024	-0.066336155	No	
+row_25	AK6	adenylate kinase 6 [Source:HGNC Symbol;Acc:HGNC:49151]	543	-0.7247843742370605	0.0076629315	No	

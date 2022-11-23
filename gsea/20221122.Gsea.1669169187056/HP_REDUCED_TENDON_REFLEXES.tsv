@@ -1,0 +1,16 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	XK	X-linked Kx blood group [Source:HGNC Symbol;Acc:HGNC:12811]	21	0.38750091195106506	0.14941199	Yes	
+row_1	IYD	iodotyrosine deiodinase [Source:HGNC Symbol;Acc:HGNC:21071]	38	0.29933032393455505	0.26524332	Yes	
+row_2	GNB4	G protein subunit beta 4 [Source:HGNC Symbol;Acc:HGNC:20731]	103	0.18950508534908295	0.2375055	Yes	
+row_3	GAN	gigaxonin [Source:HGNC Symbol;Acc:HGNC:4137]	108	0.1854168027639389	0.320346	Yes	
+row_4	LHX3	LIM homeobox 3 [Source:HGNC Symbol;Acc:HGNC:6595]	119	0.17335401475429535	0.38605183	Yes	
+row_5	GABRB2	gamma-aminobutyric acid type A receptor subunit beta2 [Source:HGNC Symbol;Acc:HGNC:4082]	130	0.16311872005462646	0.44677046	Yes	
+row_6	BICD2	BICD cargo adaptor 2 [Source:HGNC Symbol;Acc:HGNC:17208]	136	0.15548644959926605	0.5131511	Yes	
+row_7	FIG4	FIG4 phosphoinositide 5-phosphatase [Source:HGNC Symbol;Acc:HGNC:16873]	187	0.10358111560344696	0.46981284	No	
+row_8	PIGG	phosphatidylinositol glycan anchor biosynthesis class G [Source:HGNC Symbol;Acc:HGNC:25985]	241	0.03394929692149162	0.38691765	No	
+row_9	AP3B2	adaptor related protein complex 3 subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:567]	246	0.026816044002771378	0.39247918	No	
+row_10	GAA	alpha glucosidase [Source:HGNC Symbol;Acc:HGNC:4065]	258	0.011786025017499924	0.37758407	No	
+row_11	DST	dystonin [Source:HGNC Symbol;Acc:HGNC:1090]	265	5.863826372660697E-4	0.36661276	No	
+row_12	WARS1	tryptophanyl-tRNA synthetase 1 [Source:HGNC Symbol;Acc:HGNC:12729]	302	-0.007590399589389563	0.302769	No	
+row_13	SCYL2	SCY1 like pseudokinase 2 [Source:HGNC Symbol;Acc:HGNC:19286]	350	-0.06204049289226532	0.24481842	No	
+row_14	SLC5A7	solute carrier family 5 member 7 [Source:HGNC Symbol;Acc:HGNC:14025]	481	-0.25225308537483215	0.12382746	No	

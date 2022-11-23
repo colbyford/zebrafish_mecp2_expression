@@ -1,0 +1,16 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	XK	X-linked Kx blood group [Source:HGNC Symbol;Acc:HGNC:12811]	21	0.38750091195106506	0.12865512	Yes	
+row_1	PLXNA1	plexin A1 [Source:HGNC Symbol;Acc:HGNC:9099]	96	0.19620482623577118	0.07491016	Yes	
+row_2	CCKAR	cholecystokinin A receptor [Source:HGNC Symbol;Acc:HGNC:1570]	99	0.19120752811431885	0.15408234	Yes	
+row_3	MAP3K13	mitogen-activated protein kinase kinase kinase 13 [Source:HGNC Symbol;Acc:HGNC:6852]	100	0.190499946475029	0.23670001	Yes	
+row_4	EPHB3	EPH receptor B3 [Source:HGNC Symbol;Acc:HGNC:3394]	116	0.17757272720336914	0.2855687	Yes	
+row_5	LHX3	LIM homeobox 3 [Source:HGNC Symbol;Acc:HGNC:6595]	119	0.17335401475429535	0.35699803	Yes	
+row_6	FEZ2	fasciculation and elongation protein zeta 2 [Source:HGNC Symbol;Acc:HGNC:3660]	152	0.14427977800369263	0.359533	Yes	
+row_7	PARD3	par-3 family cell polarity regulator [Source:HGNC Symbol;Acc:HGNC:16051]	155	0.140908882021904	0.41689125	Yes	
+row_8	UNC5C	unc-5 netrin receptor C [Source:HGNC Symbol;Acc:HGNC:12569]	159	0.1353975087404251	0.46998307	Yes	
+row_9	ANOS1	anosmin 1 [Source:HGNC Symbol;Acc:HGNC:6211]	174	0.11882707476615906	0.4952506	Yes	
+row_10	ARHGEF25	Rho guanine nucleotide exchange factor 25 [Source:HGNC Symbol;Acc:HGNC:30275]	201	0.08069468289613724	0.4814665	No	
+row_11	SLIT3	slit guidance ligand 3 [Source:HGNC Symbol;Acc:HGNC:11087]	261	0.008568326942622662	0.3744883	No	
+row_12	RAC1	Rac family small GTPase 1 [Source:HGNC Symbol;Acc:HGNC:9801]	283	0.0	0.33508867	No	
+row_13	GRM7	glutamate metabotropic receptor 7 [Source:HGNC Symbol;Acc:HGNC:4599]	372	-0.07614962011575699	0.20301071	No	
+row_14	UST	uronyl 2-sulfotransferase [Source:HGNC Symbol;Acc:HGNC:17223]	494	-0.2846359312534332	0.0994372	No	

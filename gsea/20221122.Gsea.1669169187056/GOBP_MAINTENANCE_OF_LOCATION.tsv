@@ -1,0 +1,17 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MCOLN3	mucolipin TRP cation channel 3 [Source:HGNC Symbol;Acc:HGNC:13358]	51	0.2632450759410858	-0.019140046	No	
+row_1	ACVR1C	activin A receptor type 1C [Source:HGNC Symbol;Acc:HGNC:18123]	84	0.21144512295722961	-0.017663263	No	
+row_2	JPH3	junctophilin 3 [Source:HGNC Symbol;Acc:HGNC:14203]	182	0.1078139916062355	-0.16857095	No	
+row_3	RYR2	ryanodine receptor 2 [Source:HGNC Symbol;Acc:HGNC:10484]	195	0.08844326436519623	-0.16534993	No	
+row_4	GAA	alpha glucosidase [Source:HGNC Symbol;Acc:HGNC:4065]	258	0.011786025017499924	-0.27845618	No	
+row_5	OSBPL8	oxysterol binding protein like 8 [Source:HGNC Symbol;Acc:HGNC:16396]	322	-0.029094453901052475	-0.38839746	No	
+row_6	VSTM2A	V-set and transmembrane domain containing 2A [Source:HGNC Symbol;Acc:HGNC:28499]	337	-0.048009660094976425	-0.40072048	No	
+row_7	GOLPH3	golgi phosphoprotein 3 [Source:HGNC Symbol;Acc:HGNC:15452]	340	-0.051562968641519547	-0.3894515	No	
+row_8	TXN	thioredoxin [Source:HGNC Symbol;Acc:HGNC:12435]	412	-0.1276226043701172	-0.48571363	Yes	
+row_9	MDFI	MyoD family inhibitor [Source:HGNC Symbol;Acc:HGNC:6967]	422	-0.14714716374874115	-0.45974386	Yes	
+row_10	ZC3H12A	zinc finger CCCH-type containing 12A [Source:HGNC Symbol;Acc:HGNC:26259]	444	-0.18272189795970917	-0.44596198	Yes	
+row_11	METTL21C	methyltransferase 21C, AARS1 lysine [Source:HGNC Symbol;Acc:HGNC:33717]	467	-0.21828247606754303	-0.42369542	Yes	
+row_12	F2RL3	F2R like thrombin or trypsin receptor 3 [Source:HGNC Symbol;Acc:HGNC:3540]	497	-0.2950023412704468	-0.3922262	Yes	
+row_13	F2R	coagulation factor II thrombin receptor [Source:HGNC Symbol;Acc:HGNC:3537]	521	-0.41847264766693115	-0.31349248	Yes	
+row_14	GM2A	GM2 ganglioside activator [Source:HGNC Symbol;Acc:HGNC:4367]	537	-0.5761292576789856	-0.17377107	Yes	
+row_15	G3BP2	G3BP stress granule assembly factor 2 [Source:HGNC Symbol;Acc:HGNC:30291]	540	-0.6542588472366333	0.013157842	Yes	

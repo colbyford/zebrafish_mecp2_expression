@@ -1,0 +1,16 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	TCF4	transcription factor 4 [Source:HGNC Symbol;Acc:HGNC:11634]	61	0.2429180145263672	-0.005805009	Yes	
+row_1	ZNF335	zinc finger protein 335 [Source:HGNC Symbol;Acc:HGNC:15807]	62	0.24175435304641724	0.10231608	Yes	
+row_2	TRAPPC9	trafficking protein particle complex subunit 9 [Source:HGNC Symbol;Acc:HGNC:30832]	77	0.2252570241689682	0.17679256	Yes	
+row_3	CC2D1A	coiled-coil and C2 domain containing 1A [Source:HGNC Symbol;Acc:HGNC:30237]	95	0.19668535888195038	0.23286226	Yes	
+row_4	FAT4	FAT atypical cadherin 4 [Source:HGNC Symbol;Acc:HGNC:23109]	113	0.18037590384483337	0.28163782	Yes	
+row_5	SMARCA4	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4 [Source:HGNC Symbol;Acc:HGNC:11100]	115	0.1776048094034195	0.3591928	Yes	
+row_6	KIRREL3	kirre like nephrin family adhesion molecule 3 [Source:HGNC Symbol;Acc:HGNC:23204]	129	0.1633540689945221	0.40786025	Yes	
+row_7	BICD2	BICD cargo adaptor 2 [Source:HGNC Symbol;Acc:HGNC:17208]	136	0.15548644959926605	0.46614224	Yes	
+row_8	GRIK2	glutamate ionotropic receptor kainate type subunit 2 [Source:HGNC Symbol;Acc:HGNC:4580]	146	0.14783547818660736	0.51537395	Yes	
+row_9	KIF2A	kinesin family member 2A [Source:HGNC Symbol;Acc:HGNC:6318]	175	0.11689458787441254	0.5151205	Yes	
+row_10	FIG4	FIG4 phosphoinositide 5-phosphatase [Source:HGNC Symbol;Acc:HGNC:16873]	187	0.10358111560344696	0.5408077	Yes	
+row_11	RAC1	Rac family small GTPase 1 [Source:HGNC Symbol;Acc:HGNC:9801]	283	0.0	0.36257133	No	
+row_12	GRM7	glutamate metabotropic receptor 7 [Source:HGNC Symbol;Acc:HGNC:4599]	372	-0.07614962011575699	0.23152494	No	
+row_13	IQSEC1	IQ motif and Sec7 domain ArfGEF 1 [Source:HGNC Symbol;Acc:HGNC:29112]	384	-0.09198041260242462	0.25202394	No	
+row_14	GRIN2B	glutamate ionotropic receptor NMDA type subunit 2B [Source:HGNC Symbol;Acc:HGNC:4586]	400	-0.11608199030160904	0.2757973	No	

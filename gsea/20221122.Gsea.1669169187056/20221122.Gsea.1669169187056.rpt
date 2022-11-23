@@ -1,0 +1,34 @@
+producer_class	xtools.gsea.Gsea
+producer_timestamp	1669169187056
+param	zip_report	false
+param	num	100
+param	scoring_scheme	weighted
+param	norm	meandiv
+param	out	C:\Users\Colby\Documents\GitHub\zebrafish_mecp2_expression\gsea
+param	mode	Max_probe
+param	include_only_symbols	true
+param	set_max	500
+param	gmx	C:\Users\Colby\Documents\GitHub\zebrafish_mecp2_expression\gsea\c5.all.v2022.1.Hs.symbols.gmt
+param	plot_top_x	20
+param	nperm	1000
+param	order	descending
+param	rnd_seed	timestamp
+param	rpt_label	20221122
+param	set_min	15
+param	res	C:\Users\Colby\Documents\GitHub\zebrafish_mecp2_expression\gsea\rsem_GENE_shaped.gct
+param	chip	ftp.broadinstitute.org://pub/gsea/msigdb/human/annotations/Human_Gene_Symbol_with_Remapping_MSigDB.v2022.1.Hs.chip
+param	create_svgs	false
+param	cls	C:\Users\Colby\Documents\GitHub\zebrafish_mecp2_expression\gsea\groups.cls#WILDTYPE_versus_MUTANT
+param	sort	real
+param	create_gcts	false
+param	help	false
+param	save_rnd_lists	false
+param	median	false
+param	metric	Signal2Noise
+param	make_sets	true
+param	rnd_type	no_balance
+param	gui	false
+param	permute	phenotype
+param	collapse	Collapse
+
+file	C:\Users\Colby\Documents\GitHub\zebrafish_mecp2_expression\gsea\20221122.Gsea.1669169187056\index.html

@@ -1,0 +1,19 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DHX35	DEAH-box helicase 35 [Source:HGNC Symbol;Acc:HGNC:15861]	31	0.3344844877719879	0.006233476	No	
+row_1	EIF3J	eukaryotic translation initiation factor 3 subunit J [Source:HGNC Symbol;Acc:HGNC:3270]	83	0.21775764226913452	-0.047855992	No	
+row_2	RPS17	ribosomal protein S17 [Source:HGNC Symbol;Acc:HGNC:10397]	141	0.1496882140636444	-0.12643792	No	
+row_3	DDX17	DEAD-box helicase 17 [Source:HGNC Symbol;Acc:HGNC:2740]	166	0.1280716210603714	-0.14693858	No	
+row_4	MIR199B	microRNA 199b [Source:HGNC Symbol;Acc:HGNC:31573]	276	0.0	-0.35259897	No	
+row_5	MIR19A	microRNA 19a [Source:HGNC Symbol;Acc:HGNC:31574]	285	0.0	-0.3676933	No	
+row_6	MIR150	microRNA 150 [Source:HGNC Symbol;Acc:HGNC:31537]	287	0.0	-0.3695801	No	
+row_7	MIR96	microRNA 96 [Source:HGNC Symbol;Acc:HGNC:31648]	293	0.0	-0.37901405	No	
+row_8	MRPS12	mitochondrial ribosomal protein S12 [Source:HGNC Symbol;Acc:HGNC:10380]	416	-0.1385096162557602	-0.58240056	No	
+row_9	LSM2	LSM2 homolog, U6 small nuclear RNA and mRNA degradation associated [Source:HGNC Symbol;Acc:HGNC:13940]	436	-0.1707732081413269	-0.58520436	No	
+row_10	EIF2AK4	eukaryotic translation initiation factor 2 alpha kinase 4 [Source:HGNC Symbol;Acc:HGNC:19687]	475	-0.24330326914787292	-0.60982233	Yes	
+row_11	LIN28A	lin-28 homolog A [Source:HGNC Symbol;Acc:HGNC:15986]	482	-0.2532649338245392	-0.5721354	Yes	
+row_12	XPO1	exportin 1 [Source:HGNC Symbol;Acc:HGNC:12825]	484	-0.2545144259929657	-0.52477264	Yes	
+row_13	MRPL49	mitochondrial ribosomal protein L49 [Source:HGNC Symbol;Acc:HGNC:1176]	514	-0.3813864290714264	-0.50568986	Yes	
+row_14	UTP14C	UTP14C small subunit processome component [Source:HGNC Symbol;Acc:HGNC:20321]	522	-0.4195011556148529	-0.43772233	Yes	
+row_15	G3BP2	G3BP stress granule assembly factor 2 [Source:HGNC Symbol;Acc:HGNC:30291]	540	-0.6542588472366333	-0.34319615	Yes	
+row_16	XPO5	exportin 5 [Source:HGNC Symbol;Acc:HGNC:17675]	545	-0.8702734708786011	-0.18234205	Yes	
+row_17	MTERF4	mitochondrial transcription termination factor 4 [Source:HGNC Symbol;Acc:HGNC:28785]	546	-0.9520676136016846	0.0018867105	Yes	

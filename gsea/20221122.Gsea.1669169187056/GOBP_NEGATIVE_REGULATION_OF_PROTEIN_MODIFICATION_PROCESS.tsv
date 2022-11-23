@@ -1,0 +1,17 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	NCKAP1L	NCK associated protein 1 like [Source:HGNC Symbol;Acc:HGNC:4862]	7	0.48860716819763184	0.1628635	Yes	
+row_1	TPPP	tubulin polymerization promoting protein [Source:HGNC Symbol;Acc:HGNC:24164]	22	0.3826572597026825	0.27440047	Yes	
+row_2	MINAR1	membrane integral NOTCH2 associated receptor 1 [Source:HGNC Symbol;Acc:HGNC:29172]	66	0.2389030009508133	0.27963853	Yes	
+row_3	SRCIN1	SRC kinase signaling inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:29506]	67	0.23494967818260193	0.36427948	Yes	
+row_4	PRKAR2B	protein kinase cAMP-dependent type II regulatory subunit beta [Source:HGNC Symbol;Acc:HGNC:9392]	72	0.22768044471740723	0.43878287	Yes	
+row_5	MAPK8IP1	mitogen-activated protein kinase 8 interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:6882]	101	0.1903679519891739	0.45473158	Yes	
+row_6	SNTA1	syntrophin alpha 1 [Source:HGNC Symbol;Acc:HGNC:11167]	102	0.19006119668483734	0.5232014	Yes	
+row_7	SPAG9	sperm associated antigen 9 [Source:HGNC Symbol;Acc:HGNC:14524]	120	0.17329521477222443	0.55367637	Yes	
+row_8	PARD3	par-3 family cell polarity regulator [Source:HGNC Symbol;Acc:HGNC:16051]	155	0.140908882021904	0.5405292	No	
+row_9	TESK1	testis associated actin remodelling kinase 1 [Source:HGNC Symbol;Acc:HGNC:11731]	177	0.1139339953660965	0.54210037	No	
+row_10	CTBP1	C-terminal binding protein 1 [Source:HGNC Symbol;Acc:HGNC:2494]	255	0.0161352027207613	0.40317625	No	
+row_11	WARS1	tryptophanyl-tRNA synthetase 1 [Source:HGNC Symbol;Acc:HGNC:12729]	302	-0.007590399589389563	0.31944454	No	
+row_12	ATG14	autophagy related 14 [Source:HGNC Symbol;Acc:HGNC:19962]	331	-0.03727354481816292	0.2802408	No	
+row_13	CAMK2N1	calcium/calmodulin dependent protein kinase II inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:24190]	367	-0.07299912720918655	0.24074934	No	
+row_14	MYADM	myeloid associated differentiation marker [Source:HGNC Symbol;Acc:HGNC:7544]	374	-0.07775488495826721	0.25748247	No	
+row_15	ZC3H12A	zinc finger CCCH-type containing 12A [Source:HGNC Symbol;Acc:HGNC:26259]	444	-0.18272189795970917	0.19360901	No	

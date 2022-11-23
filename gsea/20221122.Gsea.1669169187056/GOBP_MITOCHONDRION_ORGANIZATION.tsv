@@ -1,0 +1,16 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	MFN1	mitofusin 1 [Source:HGNC Symbol;Acc:HGNC:18262]	44	0.2772013247013092	0.012670826	No	
+row_1	MTFP1	mitochondrial fission process 1 [Source:HGNC Symbol;Acc:HGNC:26945]	87	0.2065662294626236	0.0048298854	No	
+row_2	HTRA2	HtrA serine peptidase 2 [Source:HGNC Symbol;Acc:HGNC:14348]	158	0.13552618026733398	-0.079947114	No	
+row_3	NDUFAF8	NADH:ubiquinone oxidoreductase complex assembly factor 8 [Source:HGNC Symbol;Acc:HGNC:33551]	223	0.05572746321558952	-0.18087903	No	
+row_4	COX7A2	cytochrome c oxidase subunit 7A2 [Source:HGNC Symbol;Acc:HGNC:2288]	260	0.010033958591520786	-0.24497443	No	
+row_5	RAP1GDS1	Rap1 GTPase-GDP dissociation stimulator 1 [Source:HGNC Symbol;Acc:HGNC:9859]	299	-0.0024136784486472607	-0.31543985	No	
+row_6	TIMM21	translocase of inner mitochondrial membrane 21 [Source:HGNC Symbol;Acc:HGNC:25010]	327	-0.030598966404795647	-0.35558537	No	
+row_7	NDUFB1	NADH:ubiquinone oxidoreductase subunit B1 [Source:HGNC Symbol;Acc:HGNC:7695]	329	-0.034549131989479065	-0.34559345	No	
+row_8	ATG14	autophagy related 14 [Source:HGNC Symbol;Acc:HGNC:19962]	331	-0.03727354481816292	-0.33466566	No	
+row_9	GOLPH3	golgi phosphoprotein 3 [Source:HGNC Symbol;Acc:HGNC:15452]	340	-0.051562968641519547	-0.33196244	No	
+row_10	ATG2A	autophagy related 2A [Source:HGNC Symbol;Acc:HGNC:29028]	352	-0.06568646430969238	-0.33003613	No	
+row_11	STMP1	short transmembrane mitochondrial protein 1 [Source:HGNC Symbol;Acc:HGNC:41909]	392	-0.10586556792259216	-0.36684063	No	
+row_12	COA4	cytochrome c oxidase assembly factor 4 homolog [Source:HGNC Symbol;Acc:HGNC:24604]	515	-0.38999706506729126	-0.4617644	Yes	
+row_13	TIMM22	translocase of inner mitochondrial membrane 22 [Source:HGNC Symbol;Acc:HGNC:17317]	536	-0.5560224652290344	-0.30828658	Yes	
+row_14	MTERF4	mitochondrial transcription termination factor 4 [Source:HGNC Symbol;Acc:HGNC:28785]	546	-0.9520676136016846	0.0018760287	Yes	

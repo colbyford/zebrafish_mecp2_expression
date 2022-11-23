@@ -1,0 +1,16 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ANPEP	alanyl aminopeptidase, membrane [Source:HGNC Symbol;Acc:HGNC:500]	78	0.22308911383152008	-0.066891834	No	
+row_1	CCKAR	cholecystokinin A receptor [Source:HGNC Symbol;Acc:HGNC:1570]	99	0.19120752811431885	-0.03631977	No	
+row_2	NPFFR2	neuropeptide FF receptor 2 [Source:HGNC Symbol;Acc:HGNC:4525]	208	0.07326535135507584	-0.21285413	No	
+row_3	RANBP2	RAN binding protein 2 [Source:HGNC Symbol;Acc:HGNC:9848]	222	0.057969603687524796	-0.21659942	No	
+row_4	CCKBR	cholecystokinin B receptor [Source:HGNC Symbol;Acc:HGNC:1571]	239	0.03669095039367676	-0.23355128	No	
+row_5	TNPO2	transportin 2 [Source:HGNC Symbol;Acc:HGNC:19998]	334	-0.0402897447347641	-0.39556295	No	
+row_6	PRLHR	prolactin releasing hormone receptor [Source:HGNC Symbol;Acc:HGNC:4464]	371	-0.07554303854703903	-0.43620172	Yes	
+row_7	CRHR2	corticotropin releasing hormone receptor 2 [Source:HGNC Symbol;Acc:HGNC:2358]	373	-0.0766865611076355	-0.4107672	Yes	
+row_8	ACOT12	acyl-CoA thioesterase 12 [Source:HGNC Symbol;Acc:HGNC:24436]	391	-0.10534188151359558	-0.4051463	Yes	
+row_9	GRIN2B	glutamate ionotropic receptor NMDA type subunit 2B [Source:HGNC Symbol;Acc:HGNC:4586]	400	-0.11608199030160904	-0.37881494	Yes	
+row_10	CMKLR1	chemerin chemokine-like receptor 1 [Source:HGNC Symbol;Acc:HGNC:2121]	454	-0.19759948551654816	-0.4078802	Yes	
+row_11	RAMP1	receptor activity modifying protein 1 [Source:HGNC Symbol;Acc:HGNC:9843]	500	-0.30154120922088623	-0.38491887	Yes	
+row_12	RAMP3	receptor activity modifying protein 3 [Source:HGNC Symbol;Acc:HGNC:9845]	509	-0.3428772985935211	-0.27781796	Yes	
+row_13	APBA3	amyloid beta precursor protein binding family A member 3 [Source:HGNC Symbol;Acc:HGNC:580]	519	-0.41372549533843994	-0.14736177	Yes	
+row_14	TIMM22	translocase of inner mitochondrial membrane 22 [Source:HGNC Symbol;Acc:HGNC:17317]	536	-0.5560224652290344	0.02063801	Yes	

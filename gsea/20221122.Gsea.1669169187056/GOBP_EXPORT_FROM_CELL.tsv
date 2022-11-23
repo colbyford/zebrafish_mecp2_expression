@@ -1,0 +1,28 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ATP9A	ATPase phospholipid transporting 9A (putative) [Source:HGNC Symbol;Acc:HGNC:13540]	3	0.5420606732368469	0.10923813	Yes	
+row_1	NCKAP1L	NCK associated protein 1 like [Source:HGNC Symbol;Acc:HGNC:4862]	7	0.48860716819763184	0.20713629	Yes	
+row_2	GPR68	G protein-coupled receptor 68 [Source:HGNC Symbol;Acc:HGNC:4519]	15	0.4102845788002014	0.28074104	Yes	
+row_3	SLC35G1	solute carrier family 35 member G1 [Source:HGNC Symbol;Acc:HGNC:26607]	26	0.3486839532852173	0.33551928	Yes	
+row_4	SRCIN1	SRC kinase signaling inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:29506]	67	0.23494967818260193	0.3085876	Yes	
+row_5	ACVR1C	activin A receptor type 1C [Source:HGNC Symbol;Acc:HGNC:18123]	84	0.21144512295722961	0.32273477	Yes	
+row_6	FRMD4A	FERM domain containing 4A [Source:HGNC Symbol;Acc:HGNC:25491]	85	0.209878072142601	0.36725968	Yes	
+row_7	CCKAR	cholecystokinin A receptor [Source:HGNC Symbol;Acc:HGNC:1570]	99	0.19120752811431885	0.3828717	Yes	
+row_8	RIC1	RIC1 homolog, RAB6A GEF complex partner 1 [Source:HGNC Symbol;Acc:HGNC:17686]	105	0.1882973462343216	0.4132214	Yes	
+row_9	NRXN2	neurexin 2 [Source:HGNC Symbol;Acc:HGNC:8009]	106	0.18802453577518463	0.45311013	Yes	
+row_10	CARTPT	CART prepropeptide [Source:HGNC Symbol;Acc:HGNC:24323]	142	0.14965423941612244	0.41768026	No	
+row_11	OSCP1	organic solute carrier partner 1 [Source:HGNC Symbol;Acc:HGNC:29971]	163	0.1317056268453598	0.40723342	No	
+row_12	RAPGEF4	Rap guanine nucleotide exchange factor 4 [Source:HGNC Symbol;Acc:HGNC:16626]	165	0.12990252673625946	0.4328724	No	
+row_13	UNC13B	unc-13 homolog B [Source:HGNC Symbol;Acc:HGNC:12566]	224	0.05372397601604462	0.3329454	No	
+row_14	RIMS2	regulating synaptic membrane exocytosis 2 [Source:HGNC Symbol;Acc:HGNC:17283]	242	0.032319825142621994	0.3071724	No	
+row_15	SLC29A4	solute carrier family 29 member 4 [Source:HGNC Symbol;Acc:HGNC:23097]	250	0.024147380143404007	0.29885945	No	
+row_16	AXL	AXL receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:905]	253	0.021630799397826195	0.2996096	No	
+row_17	MIR199B	microRNA 199b [Source:HGNC Symbol;Acc:HGNC:31573]	276	0.0	0.2573831	No	
+row_18	MIR19A	microRNA 19a [Source:HGNC Symbol;Acc:HGNC:31574]	285	0.0	0.24202801	No	
+row_19	RAP1GDS1	Rap1 GTPase-GDP dissociation stimulator 1 [Source:HGNC Symbol;Acc:HGNC:9859]	299	-0.0024136784486472607	0.21758805	No	
+row_20	STX3	syntaxin 3 [Source:HGNC Symbol;Acc:HGNC:11438]	308	-0.012719850055873394	0.20493144	No	
+row_21	SERP1	stress associated endoplasmic reticulum protein 1 [Source:HGNC Symbol;Acc:HGNC:10759]	319	-0.02402741275727749	0.19083491	No	
+row_22	GOLPH3	golgi phosphoprotein 3 [Source:HGNC Symbol;Acc:HGNC:15452]	340	-0.051562968641519547	0.1633861	No	
+row_23	GRM7	glutamate metabotropic receptor 7 [Source:HGNC Symbol;Acc:HGNC:4599]	372	-0.07614962011575699	0.12004002	No	
+row_24	SLC9B2	solute carrier family 9 member B2 [Source:HGNC Symbol;Acc:HGNC:25143]	459	-0.20876289904117584	-7.388287E-4	No	
+row_25	RASL10B	RAS like family 10 member B [Source:HGNC Symbol;Acc:HGNC:30295]	512	-0.36309078335762024	-0.023518441	No	
+row_26	F2R	coagulation factor II thrombin receptor [Source:HGNC Symbol;Acc:HGNC:3537]	521	-0.41847264766693115	0.049903993	No	
