@@ -67,23 +67,37 @@ library(clusterProfiler)
 library(enrichplot)
 
 activated_genes <- mecp2_data %>% 
-  filter(`Mecp2M-Mecp2WT_Status` == "UP")
+  filter(`Mecp2M-Mecp2WT_Status` == "UP") %>% na.omit() %>% 
+  dplyr::select(entrezgene_id)
 
 suppressed_genes <- mecp2_data %>% 
-  filter(`Mecp2M-Mecp2WT_Status` == "DOWN")
+  filter(`Mecp2M-Mecp2WT_Status` == "DOWN") %>% na.omit() %>% 
+  dplyr::select(entrezgene_id)
 
 activated_ego <- enrichGO(as.character(activated_genes$entrezgene_id),
                           OrgDb = "org.Dr.eg.db",
-                          ont="ALL", readable=TRUE)
+                          ont="BP", readable=TRUE)
 
 suppressed_ego <- enrichGO(as.character(suppressed_genes$entrezgene_id),
                            OrgDb = "org.Dr.eg.db",
-                           ont="ALL", readable=TRUE)
+                           ont="BP", readable=TRUE)
 
 
-activated_ego_plot <- goplot(activated_ego)
 
-activated_ego_simp <- simplify(activated_ego)
+# activated_ego_plot <- goplot(activated_ego)
+# activated_ego_simp <- simplify(activated_ego)
+# activated_ego_simp_plot <- goplot(activated_ego_simp)
 
-activated_ego_simp_plot <- goplot(activated_ego_simp)
 
+emapplot(activated_ego %>% simplify(), showCategory = 20)
+
+
+barplot(activated_ego, showCategory=20)
+
+
+# suppressed_ego_plot <- goplot(suppressed_ego)
+# suppressed_ego_simp <- simplify(suppressed_ego)
+# suppressed_ego_simp_plot <- goplot(suppressed_ego_simp)
+
+
+emapplot(suppressed_ego %>% simplify(), showCategory = 20)
