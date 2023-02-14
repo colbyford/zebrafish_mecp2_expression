@@ -1,3 +1,3 @@
-# Zebrafish MECP2 Expression
+# Behavioral and Transcriptomic Analyses of _mecp2_ Function in Zebrafish
 
-<h3 align="right">Nicholas Santistevan, Colby T. Ford, et al.</h3>
+<h3 align="right">Nicholas J. Santistevan, Colby T. Ford, Cole S. Gilsdorf, and Yevgenya Grinblat.</h3>
