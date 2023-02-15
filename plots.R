@@ -8,11 +8,11 @@ library(readxl)
 ### HEAT MAP of EXPRESION w/ DENDROGRAMS
 
 ## Get Expression Stats (and filter to significant genes)
-mecp2_data <- read_excel("RNA Seq data edgeRglm_GENE_Mecp2M-Mecp2WT.xlsx", sheet = "edgeR GLM gene") %>% 
-  filter(#`Mecp2M-Mecp2WT_FDR` < 0.5,
-         `Mecp2M-Mecp2WT_Status` != "NS",
-         #`Mecp2M-Mecp2WT_PValue` <= 0.05
-         )
+mecp2_data <- read_excel("RNA Seq data edgeRglm_GENE_Mecp2M-Mecp2WT.xlsx", sheet = "edgeR GLM gene")
+
+mecp2_data_sig <- mecp2_data %>% 
+  filter(`Mecp2M-Mecp2WT_Status` != "NS")
+
 
 ## Get Entrez IDs
 
@@ -99,3 +99,47 @@ barplot(activated_ego, showCategory=20)
 
 
 emapplot(suppressed_ego %>% simplify(), showCategory = 20)
+
+
+### Volcano Plot (from: https://erikaduan.github.io/posts/2021-01-02-volcano-plots-with-ggplot2/)
+library(ggrepel)
+cols <- c("UP" = "red", "DOWN" = "blue", "NS" = "grey") 
+sizes <- c("UP" = 2, "DOWN" = 2, "NS" = 1) 
+alphas <- c("UP" = 1, "DOWN" = 1, "NS" = 0.5)
+
+top10up <- mecp2_data %>%
+  top_n(10, `Mecp2M-Mecp2WT_logFC`)
+
+top10down <- mecp2_data %>%
+  top_n(-10, `Mecp2M-Mecp2WT_logFC`)
+
+mecp2_data %>%
+  ggplot(aes(x = `Mecp2M-Mecp2WT_logFC`,
+             y = -log10(`Mecp2M-Mecp2WT_PValue`),
+             fill = `Mecp2M-Mecp2WT_Status`,    
+             size = `Mecp2M-Mecp2WT_Status`,
+             alpha = `Mecp2M-Mecp2WT_Status`)) + 
+  geom_point(shape = 21, # Specify shape and colour as fixed local parameters    
+             colour = "black") + 
+  geom_hline(yintercept = -log10(0.05),
+             linetype = "dashed") + 
+  geom_vline(xintercept = c(log2(0.5), log2(2)),
+             linetype = "dashed") +
+  geom_label_repel(data = top10up, # Add labels last to appear as the top layer  
+                   aes(label = Symbol, fill = "white"),
+                   force = 2,
+                   nudge_y = 1) +
+  geom_label_repel(data = top10down, # Add labels last to appear as the top layer  
+                   aes(label = Symbol, fill = "white"),
+                   force = 2,
+                   nudge_y = 1) +
+  scale_fill_manual(values = cols, guide="none") + # Modify point colour
+  scale_size_manual(values = sizes, guide="none") + # Modify point size
+  scale_alpha_manual(values = alphas) + # Modify point transparency
+  scale_x_continuous(breaks = c(seq(-10, 10, 2)),       
+                     limits = c(-10, 10)) +
+  labs(x="log2(Fold Change)",
+       y="-log10(p-Value)",
+       fill="Status",
+       size="Status") +
+  theme(legend.position="none")
