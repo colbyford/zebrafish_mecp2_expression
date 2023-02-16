@@ -119,18 +119,18 @@ mecp2_data %>%
              fill = `Mecp2M-Mecp2WT_Status`,    
              size = `Mecp2M-Mecp2WT_Status`,
              alpha = `Mecp2M-Mecp2WT_Status`)) + 
-  geom_point(shape = 21, # Specify shape and colour as fixed local parameters    
-             colour = "black") + 
+  geom_point(shape = 21, # Specify shape and colour as fixed local parameters
+             colour = "black") +
   geom_hline(yintercept = -log10(0.05),
              linetype = "dashed") + 
   geom_vline(xintercept = c(log2(0.5), log2(2)),
              linetype = "dashed") +
-  geom_label_repel(data = top10up, # Add labels last to appear as the top layer  
-                   aes(label = Symbol, fill = "white"),
+  geom_text_repel(data = top10up, # Add labels last to appear as the top layer  
+                   aes(label = Symbol),
                    force = 2,
                    nudge_y = 1) +
-  geom_label_repel(data = top10down, # Add labels last to appear as the top layer  
-                   aes(label = Symbol, fill = "white"),
+  geom_text_repel(data = top10down, # Add labels last to appear as the top layer  
+                   aes(label = Symbol),
                    force = 2,
                    nudge_y = 1) +
   scale_fill_manual(values = cols, guide="none") + # Modify point colour
