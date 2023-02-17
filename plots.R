@@ -1,17 +1,24 @@
 library(ggplot2)
 # devtools::install_github("nicolash2/ggdendroplot")
 library(ggdendroplot)
+library(ggrepel)
 library(dplyr)
 library(readr)
 library(readxl)
 
-### HEAT MAP of EXPRESION w/ DENDROGRAMS
-
 ## Get Expression Stats (and filter to significant genes)
-mecp2_data <- read_excel("RNA Seq data edgeRglm_GENE_Mecp2M-Mecp2WT.xlsx", sheet = "edgeR GLM gene")
+# p-value < 0.05 and fold change > 2 or < -2.
+mecp2_data <- read_excel("RNA Seq data edgeRglm_GENE_Mecp2M-Mecp2WT.xlsx", sheet = "edgeR GLM gene") %>% 
+  mutate(significance = case_when(
+    (`Mecp2M-Mecp2WT_logFC` > 1 & `Mecp2M-Mecp2WT_PValue` <= 0.05) ~ "UP",
+    (`Mecp2M-Mecp2WT_logFC` < -1 & `Mecp2M-Mecp2WT_PValue` <= 0.05) ~ "DOWN",
+    TRUE ~ "NS"
+  ))
+  
 
 mecp2_data_sig <- mecp2_data %>% 
-  filter(`Mecp2M-Mecp2WT_Status` != "NS")
+  # filter(`Mecp2M-Mecp2WT_Status` != "NS")
+  filter(significance != "NS")
 
 
 ## Get Entrez IDs
@@ -23,16 +30,18 @@ mart <- biomaRt::useMart(biomart = "ENSEMBL_MART_ENSEMBL",
 
 genes <- biomaRt::getBM(filters = "ensembl_gene_id",
                         attributes = c("ensembl_gene_id", "entrezgene_id"),
-                        values = mecp2_data$Ensembl,
+                        values = mecp2_data_sig$Ensembl,
+                        useCache = FALSE,
                         mart = mart)
 
-mecp2_data <- mecp2_data %>% left_join(genes, by = c("Ensembl" = "ensembl_gene_id"))
+mecp2_data_sig <- mecp2_data_sig %>% left_join(genes, by = c("Ensembl" = "ensembl_gene_id"))
 
-
+######################
+### HEAT MAP of EXPRESION w/ DENDROGRAMS
 ## RSEM Clusters
 
 
-rsem_z <- read_csv("rsem_GENE_z.csv") %>% filter(gene_id %in% mecp2_data$Ensembl)
+rsem_z <- read_csv("rsem_GENE_z.csv") %>% filter(gene_id %in% mecp2_data_sig$Ensembl)
   
 
 rsem_z_mat <- rsem_z %>% dplyr::select(!c("gene_id", "Symbol")) %>% as.matrix()
@@ -66,12 +75,16 @@ ggplot() +
 library(clusterProfiler)
 library(enrichplot)
 
-activated_genes <- mecp2_data %>% 
-  filter(`Mecp2M-Mecp2WT_Status` == "UP") %>% na.omit() %>% 
+activated_genes <- mecp2_data_sig %>% 
+  # filter(`Mecp2M-Mecp2WT_Status` == "UP") %>%
+  filter(significance == "UP") %>%
+  na.omit() %>% 
   dplyr::select(entrezgene_id)
 
-suppressed_genes <- mecp2_data %>% 
-  filter(`Mecp2M-Mecp2WT_Status` == "DOWN") %>% na.omit() %>% 
+suppressed_genes <- mecp2_data_sig %>% 
+  # filter(`Mecp2M-Mecp2WT_Status` == "DOWN") %>%
+  filter(significance == "DOWN") %>%
+  na.omit() %>% 
   dplyr::select(entrezgene_id)
 
 activated_ego <- enrichGO(as.character(activated_genes$entrezgene_id),
@@ -89,8 +102,9 @@ suppressed_ego <- enrichGO(as.character(suppressed_genes$entrezgene_id),
 # activated_ego_simp_plot <- goplot(activated_ego_simp)
 
 
-emapplot(activated_ego %>% simplify(), showCategory = 20)
-barplot(activated_ego, showCategory=20)
+# emapplot(activated_ego %>% simplify(), showCategory = 20)
+emapplot(activated_ego, showCategory = 20)
+# barplot(activated_ego, showCategory = 20)
 
 
 # suppressed_ego_plot <- goplot(suppressed_ego)
@@ -101,24 +115,27 @@ barplot(activated_ego, showCategory=20)
 emapplot(suppressed_ego %>% simplify(), showCategory = 20)
 
 
+######################
 ### Volcano Plot (from: https://erikaduan.github.io/posts/2021-01-02-volcano-plots-with-ggplot2/)
-library(ggrepel)
+
 cols <- c("UP" = "red", "DOWN" = "blue", "NS" = "grey") 
 sizes <- c("UP" = 2, "DOWN" = 2, "NS" = 1) 
 alphas <- c("UP" = 1, "DOWN" = 1, "NS" = 0.5)
 
 top10up <- mecp2_data %>%
+  filter(`Mecp2M-Mecp2WT_PValue` <= 0.05) %>% 
   top_n(10, `Mecp2M-Mecp2WT_logFC`)
 
 top10down <- mecp2_data %>%
+  filter(`Mecp2M-Mecp2WT_PValue` <= 0.05) %>% 
   top_n(-10, `Mecp2M-Mecp2WT_logFC`)
 
 mecp2_data %>%
   ggplot(aes(x = `Mecp2M-Mecp2WT_logFC`,
              y = -log10(`Mecp2M-Mecp2WT_PValue`),
-             fill = `Mecp2M-Mecp2WT_Status`,    
-             size = `Mecp2M-Mecp2WT_Status`,
-             alpha = `Mecp2M-Mecp2WT_Status`)) + 
+             fill = significance,    
+             size = significance,
+             alpha = significance)) + 
   geom_point(shape = 21, # Specify shape and colour as fixed local parameters
              colour = "black") +
   geom_hline(yintercept = -log10(0.05),
@@ -127,10 +144,12 @@ mecp2_data %>%
              linetype = "dashed") +
   geom_text_repel(data = top10up, # Add labels last to appear as the top layer  
                    aes(label = Symbol),
+                  size = 3,
                    force = 2,
                    nudge_y = 1) +
   geom_text_repel(data = top10down, # Add labels last to appear as the top layer  
                    aes(label = Symbol),
+                  size = 3,
                    force = 2,
                    nudge_y = 1) +
   scale_fill_manual(values = cols, guide="none") + # Modify point colour
