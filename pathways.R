@@ -59,3 +59,20 @@ ca_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
                     species = "dre",
                     out.suffix = "_M",
                     kegg.native = T)
+
+
+## Cholesterol Metabolism ("Steroid hormone biosynthesis")
+
+ch_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00140",
+                    species = "dre",
+                    out.suffix = "_W",
+                    kegg.native = T)
+
+ch_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00140",
+                    species = "dre",
+                    out.suffix = "_M",
+                    kegg.native = T)
