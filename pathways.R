@@ -61,7 +61,7 @@ ca_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
                     kegg.native = T)
 
 
-## Cholesterol Metabolism ("Steroid hormone biosynthesis")
+## Steroid hormone biosynthesis (Cholesterol Metabolism)
 
 ch_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
                     gene.idtype="ENSEMBL",
@@ -73,6 +73,39 @@ ch_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
 ch_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
                     gene.idtype="ENSEMBL",
                     pathway.id = "00140",
+                    species = "dre",
+                    out.suffix = "_M",
+                    kegg.native = T)
+
+## Steroid biosynthesis (includes Cholesterol Synthesis)
+
+sb_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00100",
+                    species = "dre",
+                    out.suffix = "_W",
+                    kegg.native = T)
+
+sb_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00100",
+                    species = "dre",
+                    out.suffix = "_M",
+                    kegg.native = T)
+
+
+## Mevalonate pathway (Terpenoid backbone biosynthesis)
+
+mt_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00900",
+                    species = "dre",
+                    out.suffix = "_W",
+                    kegg.native = T)
+
+mt_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00900",
                     species = "dre",
                     out.suffix = "_M",
                     kegg.native = T)
