@@ -26,7 +26,7 @@ mecp2_data_sig <- mecp2_data %>%
 mart <- biomaRt::useMart(biomart = "ENSEMBL_MART_ENSEMBL",
                          # dataset = "hsapiens_gene_ensembl",
                          dataset = "drerio_gene_ensembl",
-                         host = "http://www.ensembl.org")
+                         host = "https://www.ensembl.org")
 
 genes <- biomaRt::getBM(filters = "ensembl_gene_id",
                         attributes = c("ensembl_gene_id", "entrezgene_id"),
@@ -96,14 +96,14 @@ suppressed_ego <- enrichGO(as.character(suppressed_genes$entrezgene_id),
                            ont="BP", readable=TRUE)
 
 
-
 # activated_ego_plot <- goplot(activated_ego)
 # activated_ego_simp <- simplify(activated_ego)
 # activated_ego_simp_plot <- goplot(activated_ego_simp)
 
 
 # emapplot(activated_ego %>% simplify(), showCategory = 20)
-emapplot(activated_ego, showCategory = 20)
+# emapplot(activated_ego, showCategory = 20)
+emapplot(pairwise_termsim(activated_ego), showCategory = 20)
 # barplot(activated_ego, showCategory = 20)
 
 
@@ -112,8 +112,8 @@ emapplot(activated_ego, showCategory = 20)
 # suppressed_ego_simp_plot <- goplot(suppressed_ego_simp)
 
 
-emapplot(suppressed_ego %>% simplify(), showCategory = 20)
-
+# emapplot(suppressed_ego %>% simplify(), showCategory = 20)
+emapplot(pairwise_termsim(suppressed_ego %>% simplify()), showCategory = 20)
 
 ######################
 ### Volcano Plot (from: https://erikaduan.github.io/posts/2021-01-02-volcano-plots-with-ggplot2/)
@@ -162,3 +162,38 @@ mecp2_data %>%
        fill="Status",
        size="Status") +
   theme(legend.position="none")
+
+
+######################
+## Scatter Plot of Activated and Suppressed Genes
+
+
+as_results <- rbind(activated_ego@result %>% 
+                      mutate(change = "activated"),
+                    suppressed_ego@result %>% 
+                      mutate(change = "suppressed"))
+
+as_results$gene_ratio <- sapply(as_results$GeneRatio, function(x) eval(parse(text = x)))
+
+as_results_top_n <- as_results %>% 
+  arrange(desc(gene_ratio)) %>% 
+  group_by(change) %>%
+  filter(p.adjust < 0.05) %>% 
+  slice(1:20)
+  
+
+
+ggplot(data = as_results_top_n,
+       aes(x = gene_ratio,
+           # y = Description,
+           y = reorder(Description, gene_ratio),
+           color = p.adjust,
+           size = Count)) +
+  geom_point() +
+  facet_wrap(~change) +
+  labs(y='Description',
+       x='Gene Ratio',
+       color = "Adj. p-value") +
+  scale_color_gradient(low = "blue",
+                       high = "red")
+
