@@ -109,3 +109,56 @@ mt_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
                     species = "dre",
                     out.suffix = "_M",
                     kegg.native = T)
+
+
+######################
+## Glycolysis --> ATP
+
+## Glycolysis/Glucogenesis pathway
+
+gg_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00010",
+                    species = "dre",
+                    out.suffix = "_W",
+                    kegg.native = T)
+
+gg_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00010",
+                    species = "dre",
+                    out.suffix = "_M",
+                    kegg.native = T)
+
+## Citrate Cycle
+
+cc_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00020",
+                    species = "dre",
+                    out.suffix = "_W",
+                    kegg.native = T)
+
+cc_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00020",
+                    species = "dre",
+                    out.suffix = "_M",
+                    kegg.native = T)
+
+
+## Oxidative Phosphorylation
+
+op_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00190",
+                    species = "dre",
+                    out.suffix = "_W",
+                    kegg.native = T)
+
+op_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
+                    gene.idtype="ENSEMBL",
+                    pathway.id = "00190",
+                    species = "dre",
+                    out.suffix = "_M",
+                    kegg.native = T)
