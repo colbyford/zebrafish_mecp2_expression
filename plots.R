@@ -177,9 +177,10 @@ as_results$gene_ratio <- sapply(as_results$GeneRatio, function(x) eval(parse(tex
 
 as_results_top_n <- as_results %>% 
   arrange(desc(gene_ratio)) %>% 
+  filter(p.adjust < 0.05) %>%
   group_by(change) %>%
-  filter(p.adjust < 0.05) %>% 
-  slice(1:20)
+  # slice(1:20)
+  slice(1:50)
   
 
 
