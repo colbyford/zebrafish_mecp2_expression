@@ -182,7 +182,7 @@ as_results_top_n <- as_results %>%
   filter(p.adjust < 0.05) %>%
   # group_by(change) %>%
   # slice(1:20)
-  slice(1:50)
+  slice(1:40)
   
 
 
@@ -197,7 +197,11 @@ ggplot(data = as_results_top_n,
            shape = change,
            size = Count)) +
   geom_point() +
-  # facet_wrap(~change) +
+  # facet_wrap(~change,
+  #            # ncol = 1, nrow = 2,
+  #            ncol = 2, nrow = 1,
+  #            scales = "free"
+  #            ) +
   labs(y='Gene Set Description',
        # x='Gene Ratio',
        x='Ratio of Annotated Genes\n(BgRatio)',
