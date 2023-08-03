@@ -174,27 +174,84 @@ as_results <- rbind(activated_ego@result %>%
                       mutate(change = "suppressed"))
 
 as_results$gene_ratio <- sapply(as_results$GeneRatio, function(x) eval(parse(text = x)))
+as_results$bg_ratio <- sapply(as_results$BgRatio, function(x) eval(parse(text = x)))
 
 as_results_top_n <- as_results %>% 
-  arrange(desc(gene_ratio)) %>% 
+  # arrange(desc(gene_ratio)) %>% 
+  arrange(desc(bg_ratio)) %>% 
   filter(p.adjust < 0.05) %>%
-  group_by(change) %>%
+  # group_by(change) %>%
   # slice(1:20)
   slice(1:50)
   
 
 
 ggplot(data = as_results_top_n,
-       aes(x = gene_ratio,
+       aes(
+         # x = gene_ratio,
+         x = bg_ratio,
            # y = Description,
-           y = reorder(Description, gene_ratio),
+           # y = reorder(Description, gene_ratio),
+         y = reorder(Description, bg_ratio),
            color = p.adjust,
+           shape = change,
            size = Count)) +
   geom_point() +
-  facet_wrap(~change) +
-  labs(y='Description',
-       x='Gene Ratio',
+  # facet_wrap(~change) +
+  labs(y='Gene Set Description',
+       # x='Gene Ratio',
+       x='Ratio of Annotated Genes\n(BgRatio)',
+       shape = "Change",
        color = "Adj. p-value") +
   scale_color_gradient(low = "blue",
-                       high = "red")
+                       high = "red") +
+  scale_shape_manual(values=c("▲", "▼"))
 
+
+
+# act_scatter <- ggplot(data = as_results_top_n %>%
+#                         filter(change == "activated") %>% 
+#                         slice(1:10),
+#                       aes(
+#                         # x = gene_ratio,
+#                         x = bg_ratio,
+#                         # y = Description,
+#                         y = reorder(Description, bg_ratio),
+#                         color = p.adjust,
+#                         size = Count)) +
+#   geom_point() +
+#   # facet_wrap(~change) +
+#   labs(y='Description',
+#        # x='Gene Ratio',
+#        x='Ratio of Annotated Genes (BgRatio)',
+#        color = "Adj. p-value") +
+#   scale_color_gradient(low = "blue",
+#                        high = "red") + 
+#   scale_size_discrete(range = c(1,8))
+# 
+# 
+# sup_scatter <- ggplot(data = as_results_top_n %>%
+#                         filter(change == "suppressed") %>% 
+#                         slice(1:10),
+#                       aes(
+#                         # x = gene_ratio,
+#                         x = bg_ratio,
+#                         # y = Description,
+#                         y = reorder(Description, bg_ratio),
+#                         color = p.adjust,
+#                         size = Count)) +
+#   geom_point() +
+#   # facet_wrap(~change) +
+#   labs(y='Description',
+#        # x='Gene Ratio',
+#        x='Ratio of Annotated Genes (BgRatio)',
+#        color = "Adj. p-value") +
+#   scale_color_gradient(low = "blue",
+#                        high = "red") + 
+#   scale_size(breaks = c(1:8), range = c(1,8))
+# 
+# 
+# ggarrange(act_scatter, sup_scatter, 
+#           labels = c("A. Activated", "B. Suppressed"),
+#           # common.legend = TRUE,
+#           nrow = 1)
