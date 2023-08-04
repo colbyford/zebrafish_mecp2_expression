@@ -69,18 +69,14 @@ ch_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
                     species = "dre",
                     out.suffix = "_W",
                     high = list(gene = "magenta"),
-                    pdf.size=c(17,22),
-                    text.width = 50,
-                    cex = 0.45,
-                    same.layer = F,
-                    
-                    kegg.native = F)
+                    kegg.native = T)
 
 ch_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
                     gene.idtype="ENSEMBL",
                     pathway.id = "00140",
                     species = "dre",
                     out.suffix = "_M",
+                    high = list(gene = "magenta"),
                     kegg.native = T)
 
 ## Steroid biosynthesis (includes Cholesterol Synthesis)
@@ -90,6 +86,7 @@ sb_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
                     pathway.id = "00100",
                     species = "dre",
                     out.suffix = "_W",
+                    high = list(gene = "magenta"),
                     kegg.native = T)
 
 sb_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
@@ -97,6 +94,7 @@ sb_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
                     pathway.id = "00100",
                     species = "dre",
                     out.suffix = "_M",
+                    high = list(gene = "magenta"),
                     kegg.native = T)
 
 
@@ -107,6 +105,7 @@ mt_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
                     pathway.id = "00900",
                     species = "dre",
                     out.suffix = "_W",
+                    high = list(gene = "magenta"),
                     kegg.native = T)
 
 mt_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
@@ -114,6 +113,7 @@ mt_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
                     pathway.id = "00900",
                     species = "dre",
                     out.suffix = "_M",
+                    high = list(gene = "magenta"),
                     kegg.native = T)
 
 
