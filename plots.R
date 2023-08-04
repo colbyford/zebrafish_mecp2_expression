@@ -130,6 +130,10 @@ top10down <- mecp2_data %>%
   filter(`Mecp2M-Mecp2WT_PValue` <= 0.05) %>% 
   top_n(-10, `Mecp2M-Mecp2WT_logFC`)
 
+top10both <- rbind(
+  top10up, top10down
+)
+
 mecp2_data %>%
   ggplot(aes(x = `Mecp2M-Mecp2WT_logFC`,
              y = -log10(`Mecp2M-Mecp2WT_PValue`),
