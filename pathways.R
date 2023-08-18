@@ -68,7 +68,8 @@ ch_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
                     pathway.id = "00140",
                     species = "dre",
                     out.suffix = "_W",
-                    high = list(gene = "magenta"),
+                    low = list(gene = "magenta"),
+                    high = list(gene = "green"),
                     kegg.native = T)
 
 ch_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
@@ -76,7 +77,8 @@ ch_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
                     pathway.id = "00140",
                     species = "dre",
                     out.suffix = "_M",
-                    high = list(gene = "magenta"),
+                    low = list(gene = "magenta"),
+                    high = list(gene = "green"),
                     kegg.native = T)
 
 ## Steroid biosynthesis (includes Cholesterol Synthesis)
@@ -86,7 +88,8 @@ sb_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
                     pathway.id = "00100",
                     species = "dre",
                     out.suffix = "_W",
-                    high = list(gene = "magenta"),
+                    low = list(gene = "magenta"),
+                    high = list(gene = "green"),
                     kegg.native = T)
 
 sb_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
@@ -94,7 +97,8 @@ sb_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
                     pathway.id = "00100",
                     species = "dre",
                     out.suffix = "_M",
-                    high = list(gene = "magenta"),
+                    low = list(gene = "magenta"),
+                    high = list(gene = "green"),
                     kegg.native = T)
 
 
@@ -105,7 +109,8 @@ mt_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
                     pathway.id = "00900",
                     species = "dre",
                     out.suffix = "_W",
-                    high = list(gene = "magenta"),
+                    low = list(gene = "magenta"),
+                    high = list(gene = "green"),
                     kegg.native = T)
 
 mt_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
@@ -113,7 +118,8 @@ mt_pv_M <- pathview(gene.data = rsem_data_z_filtered_M,
                     pathway.id = "00900",
                     species = "dre",
                     out.suffix = "_M",
-                    high = list(gene = "magenta"),
+                    low = list(gene = "magenta"),
+                    high = list(gene = "green"),
                     kegg.native = T)
 
 
