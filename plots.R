@@ -213,7 +213,10 @@ ggplot(data = as_results_top_n,
        color = "Adj. p-value") +
   scale_color_gradient(low = "blue",
                        high = "red") +
-  scale_shape_manual(values=c("▲", "▼"))
+  scale_shape_manual(
+    # values=c("▲", "▼")
+    values=c(17, 25)
+    )
 
 
 
