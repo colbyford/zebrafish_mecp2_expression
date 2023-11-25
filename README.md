@@ -2,7 +2,7 @@
 
 <h3 align="right">Nicholas J. Santistevan, Colby T. Ford, Cole S. Gilsdorf, and Yevgenya Grinblat.</h3>
 
-#### biorXiv Preprint: https://www.biorxiv.org/content/10.1101/2023.09.13.557635v1
+#### biorXiv Preprint: https://www.biorxiv.org/content/10.1101/2023.09.13.557635
 
 ## Abstract
 
