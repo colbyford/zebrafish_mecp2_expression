@@ -11,8 +11,3 @@ Rett Syndrome (RTT), a human neurodevelopmental disorder characterized by severe
 ### Gene Expression Data
 
 Gene expression data and raw FASTQ files for the samples used in this study are available on NCBI GEO at: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252307
-
-### Example Result: Mevalonate-Cholesterol Pathway
-(From KEGG Pathways - dre:00900, 00100, 00140)
-
-![](figures/Drerio_MECP2_CholesterolPathway.drawio.png)
