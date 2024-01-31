@@ -58,10 +58,12 @@ pt_pv_W_df <- pt_pv_W$plot.data.gene %>%
 
 pt_pv_df <- pt_pv_W_df %>% 
   left_join(pt_pv_M_df) %>% 
-  rename(gene = labels)
+  rename(Symbol = labels)
 
 write_csv(pt_pv_df, "dre04744_pathview_values.csv")
 
+
+rsem_data_z_filtered_dre04744 <- rsem_data_z %>% filter(Symbol %in% pt_pv_df$Symbol)
 
 ## Example: Calcium Signaling pathway
 
