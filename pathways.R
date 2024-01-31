@@ -44,6 +44,25 @@ pt_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
                     out.suffix = "_W",
                     kegg.native = T)
 
+pt_pv_M_df <- pt_pv_M$plot.data.gene %>%
+  select(labels, starts_with("s4d")) %>% 
+  select(!ends_with(".col")) %>% 
+  distinct()
+
+
+pt_pv_W_df <- pt_pv_W$plot.data.gene %>%
+  select(labels, starts_with("s4d")) %>% 
+  select(!ends_with(".col")) %>% 
+  distinct()
+
+
+pt_pv_df <- pt_pv_W_df %>% 
+  left_join(pt_pv_M_df) %>% 
+  rename(gene = labels)
+
+write_csv(pt_pv_df, "dre04744_pathview_values.csv")
+
+
 ## Example: Calcium Signaling pathway
 
 ca_pv_W <- pathview(gene.data = rsem_data_z_filtered_W,
