@@ -64,6 +64,8 @@ write_csv(pt_pv_df, "dre04744_pathview_values.csv")
 
 
 rsem_data_z_filtered_dre04744 <- rsem_data_z %>% filter(Symbol %in% pt_pv_df$Symbol)
+write_csv(rsem_data_z_filtered_dre04744, "dre04744_rsem_data_z_filtered.csv")
+
 
 ## Example: Calcium Signaling pathway
 
