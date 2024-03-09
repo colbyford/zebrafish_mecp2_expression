@@ -5,7 +5,7 @@ library(stringr)
 
 
 ## Pivot RSEM data
-rsem_data <- read_csv("rsem_GENE.csv") %>% select(c("gene_id", "Symbol", starts_with("s4d-mecp")))
+rsem_data <- read_csv("../data/rsem_GENE.csv") %>% select(c("gene_id", "Symbol", starts_with("s4d-mecp")))
 
 rsem_pvt <- rsem_data %>% 
   pivot_longer(!c("gene_id",	"Symbol"),
@@ -15,7 +15,7 @@ rsem_pvt <- rsem_data %>%
   
 unique(rsem_pvt$sample_id)
 
-write_csv(rsem_pvt, "rsem_GENE_pvt.csv")
+write_csv(rsem_pvt, "../data/rsem_GENE_pvt.csv")
 
 
 
@@ -33,7 +33,7 @@ rsem_data_z <- data.frame(gene_id = rsem_data$gene_id,
                           Symbol = rsem_data$Symbol,
                           rsem_data_z)
 
-write_csv(rsem_data_z, "rsem_GENE_z.csv")
+write_csv(rsem_data_z, "../data/rsem_GENE_z.csv")
 
 ## Pivot Z data
 
@@ -45,5 +45,5 @@ rsem_z_pvt <- rsem_data_z %>%
 
 unique(rsem_z_pvt$sample_id)
 
-write_csv(rsem_z_pvt, "rsem_GENE_z_pvt.csv")
+write_csv(rsem_z_pvt, "../data/rsem_GENE_z_pvt.csv")
 
