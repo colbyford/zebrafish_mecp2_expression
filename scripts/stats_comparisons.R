@@ -3,7 +3,7 @@ library(readxl)
 library(stringr)
 
 ## Lightflash Data
-lf_data <- read_xlsx("mecp2_lightflash_kinematics_data.xlsx",
+lf_data <- read_xlsx("../data/mecp2_lightflash_kinematics_data.xlsx",
                   sheet = "summary-all turns") %>% 
   mutate(group = case_when(
       str_detect(File, "_Mu_") ~ "Mutant",
@@ -35,7 +35,7 @@ wilcox.test(
 
 
 ## Darkflash
-df_data <- read_xlsx("mecp2_darkflash_kinematics_data.xlsx",
+df_data <- read_xlsx("../data/mecp2_darkflash_kinematics_data.xlsx",
                      sheet = "Summary - O-bends") %>% 
   mutate(group = case_when(
     str_detect(File, "_Mu_") ~ "Mutant",
