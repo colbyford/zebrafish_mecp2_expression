@@ -13,10 +13,10 @@ go_cols <- c("database_designation", "marker_id","gene_symbol",
              "modification_date", "assigned_by", "annotation_extension", 
              "gene_product_form_id")
 
-go_data <- read_tsv("zfin.gaf", comment = "!", col_names = go_cols)
+go_data <- read_tsv("../data/zfin.gaf", comment = "!", col_names = go_cols)
 
 ## Get Ensembl to Zfin ID lookup (from: https://zfin.org/downloads/ensembl_1_to_1.txt)
-ens_to_zfin <- read_tsv("ensembl_to_zfin.tsv", 
+ens_to_zfin <- read_tsv("../data/ensembl_to_zfin.tsv", 
                         col_names = c("zfin_id", "so_id", 
                                       "symbol", "ensembl_id"))
 
@@ -25,7 +25,7 @@ ens_to_zfin <- read_tsv("ensembl_to_zfin.tsv",
 library(ontologyIndex)
 
 go_obo <- get_OBO(
-  "go.obo",
+  "../data/go.obo",
   propagate_relationships = "is_a",
   extract_tags = "minimal"#,
   # merge_equivalent_terms = TRUE
@@ -37,7 +37,7 @@ go_obo_df <- data.frame(
 )
 
 ## Get Expression Stats
-mecp2_data <- read_excel("RNA Seq data edgeRglm_GENE_Mecp2M-Mecp2WT.xlsx", sheet = "edgeR GLM gene")
+mecp2_data <- read_excel("../data/RNA Seq data edgeRglm_GENE_Mecp2M-Mecp2WT.xlsx", sheet = "edgeR GLM gene")
 
 ## Join Altogether
 go_data_join <- go_data %>% 
@@ -72,7 +72,7 @@ go_changes <- go_data_join %>%
   # filter(n_genes >= 50, n_genes <= 1000)
   filter(n_genes >= 10)
 
-write_csv(go_changes, "go_changes_gte10.csv")
+write_csv(go_changes, "../data/go_changes_gte10.csv")
 
 ## Pivot Summary Data Frame for Viz
 go_changes_pvt <- go_changes %>% 
