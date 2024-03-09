@@ -1,4 +1,4 @@
-gR1 = pathview:::parseKGML2Graph2("dre00100.xml", genes = F, 
+gR1 = pathview:::parseKGML2Graph2("../data/dre00100.xml", genes = F, 
                                   expand = F, split.group = F)
 
 node.data = node.info(gR1)
@@ -31,7 +31,7 @@ visNetwork(nodes = gR1_vn_nodes, edges = gR1_vn_edges)
 
 
 library(KEGGgraph)
-dre00100_nel <- parseKGML2Graph("dre00100.xml", genesOnly=FALSE)
+dre00100_nel <- parseKGML2Graph("../data/dre00100.xml", genesOnly=FALSE)
 # dre00100_df <- parseKGML2DataFrame("dre00100.xml", reactions=TRUE)
 
 dre00100_ig <- graph_from_graphnel(dre00100_nel, name = TRUE, weight = TRUE, unlist.attrs = TRUE)
