@@ -8,7 +8,7 @@ library(readxl)
 
 ## Get Expression Stats (and filter to significant genes)
 # p-value < 0.05 and fold change > 2 or < -2.
-mecp2_data <- read_excel("RNA Seq data edgeRglm_GENE_Mecp2M-Mecp2WT.xlsx", sheet = "edgeR GLM gene") %>% 
+mecp2_data <- read_excel("../data/RNA Seq data edgeRglm_GENE_Mecp2M-Mecp2WT.xlsx", sheet = "edgeR GLM gene") %>% 
   mutate(significance = case_when(
     (`Mecp2M-Mecp2WT_logFC` > 1 & `Mecp2M-Mecp2WT_PValue` <= 0.05) ~ "UP",
     (`Mecp2M-Mecp2WT_logFC` < -1 & `Mecp2M-Mecp2WT_PValue` <= 0.05) ~ "DOWN",
@@ -41,7 +41,7 @@ mecp2_data_sig <- mecp2_data_sig %>% left_join(genes, by = c("Ensembl" = "ensemb
 ## RSEM Clusters
 
 
-rsem_z <- read_csv("rsem_GENE_z.csv") %>% filter(gene_id %in% mecp2_data_sig$Ensembl)
+rsem_z <- read_csv("../data/rsem_GENE_z.csv") %>% filter(gene_id %in% mecp2_data_sig$Ensembl)
   
 
 rsem_z_mat <- rsem_z %>% dplyr::select(!c("gene_id", "Symbol")) %>% as.matrix()
@@ -55,7 +55,7 @@ column_clusters <- rsem_z_mat %>% t() %>% dist() %>% hclust()
 
 rsem_z_hm <- hmReady(rsem_z_mat, colclus=column_clusters, rowclus=row_clusters)
 
-write_csv(rsem_z_hm, "rsem_GENE_z_clust.csv")
+write_csv(rsem_z_hm, "../data/rsem_GENE_z_clust.csv")
 
 ggplot() + 
   geom_tile(data=rsem_z_hm, aes(x=y, y=x, fill=value)) +               ## heatmap
