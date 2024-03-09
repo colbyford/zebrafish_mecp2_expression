@@ -18,7 +18,7 @@ library(readr)
 
 
 ## Pathway Colorization
-rsem_data_z <- read_csv("rsem_GENE_z.csv")
+rsem_data_z <- read_csv("../data/rsem_GENE_z.csv")
 rsem_data_z_filtered <- rsem_data_z %>% dplyr::select(!c("gene_id", "Symbol"))
 rownames(rsem_data_z_filtered) <- rsem_data_z$gene_id
 
@@ -60,11 +60,11 @@ pt_pv_df <- pt_pv_W_df %>%
   left_join(pt_pv_M_df) %>% 
   rename(Symbol = labels)
 
-write_csv(pt_pv_df, "dre04744_pathview_values.csv")
+write_csv(pt_pv_df, "../data/dre04744_pathview_values.csv")
 
 
 rsem_data_z_filtered_dre04744 <- rsem_data_z %>% filter(Symbol %in% pt_pv_df$Symbol)
-write_csv(rsem_data_z_filtered_dre04744, "dre04744_rsem_data_z_filtered.csv")
+write_csv(rsem_data_z_filtered_dre04744, "../data/dre04744_rsem_data_z_filtered.csv")
 
 
 ## Example: Calcium Signaling pathway
