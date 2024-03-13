@@ -11,3 +11,7 @@ Rett Syndrome (RTT), a human neurodevelopmental disorder characterized by severe
 ### Gene Expression Data
 
 Gene expression data and raw FASTQ files for the samples used in this study are available on NCBI GEO at: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252307
+
+### Supplementary Data
+
+Supplementary Table 1: [supplementary_data/Supplementary%20Table%201.xlsx](supplementary_data/Supplementary%20Table%201.xlsx)
