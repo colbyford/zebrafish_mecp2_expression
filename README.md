@@ -14,4 +14,4 @@ Supplementary Table 1: [supplementary_data/Supplementary%20Table%201.xlsx](suppl
 
 ### Gene Expression Data
 
-Gene expression data and raw FASTQ files for the samples used in this study are available on NCBI GEO at: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252307
+Gene expression data and raw FASTQ files for the 20 samples used in this study are available on NCBI GEO at: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252307
