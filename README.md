@@ -4,6 +4,7 @@
 
 <!-- #### biorXiv Preprint: https://www.biorxiv.org/content/10.1101/2023.09.13.557635 -->
 #### Paper: https://onlinelibrary.wiley.com/doi/full/10.1002/ajmg.b.32981
+#### DOI: https://doi.org/10.1002/ajmg.b.32981
 
 ## Abstract
 
